@@ -1,0 +1,5367 @@
+[
+  {
+    "grade_name": "J-304",
+    "aliases": [
+      "AISI 304",
+      "UNS S30400",
+      "EN 1.4301",
+      "SUS 304"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (mildly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.07,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.5,
+      "Cr_max": 19.5,
+      "Ni_min": 8.0,
+      "Ni_max": 10.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "92 HRB",
+      "hardness_hrb_val": 92,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 17.3,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 20.0,
+      "cpt_c": -2.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.5,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Moderate (freshwater, urban atmospheres, mild food acids; vulnerable to chloride pitting/crevice)",
+      "scc_resistance": "Moderate (susceptible to chloride SCC above 60\u00b0C under tensile stress)",
+      "sensitization_resistance": "Moderate (carbide precipitation can occur if held at 450-850\u00b0C)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.2,
+      "deep_drawability_ldr": 2.1,
+      "erichsen_cupping_mm": 13.1,
+      "weldability_score": 9.0,
+      "machinability_score": 6.5,
+      "recommended_welding": "Easily weldable by conventional methods (MMAW, TIG, MIG) using AWS ER308/ER308L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 6.5,
+      "cost_band": "Moderate",
+      "market_availability": "Universal (Coils, Plates, Sheets, Tubes, Bars)"
+    },
+    "typical_applications": [
+      "Food processing equipment",
+      "Dairy and beverage vats",
+      "Kitchenware and utensils",
+      "Architectural panels and curtain walls",
+      "Chemical storage tanks (mild media)",
+      "Cryogenic vessels",
+      "Hospital equipment"
+    ],
+    "limitations": [
+      "Susceptible to pitting and crevice corrosion in marine/seawater and high chloride environments",
+      "Prone to stress corrosion cracking (SCC) in hot chloride solutions (>60\u00b0C)",
+      "Risk of sensitization during heavy section welding (use 304L instead)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "ASME SA240",
+      "EN 10088-2",
+      "IS 6911"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J304/J304H/J304L/J304LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 304",
+    "equivalent_bis": "04Cr18Ni10 (IS 6911)",
+    "equivalent_en": "EN 1.4301",
+    "equivalent_uns": "UNS S30400",
+    "equivalent_jis": "SUS 304"
+  },
+  {
+    "grade_name": "304*",
+    "aliases": [
+      "JSL 304*",
+      "High-Nitrogen 304",
+      "Optimized 304"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (mildly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.07,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 18.0,
+      "Cr_max": 20.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_min": 0.1,
+      "N_max": 0.2,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 351,
+      "tensile_strength_min_mpa": 667,
+      "elongation_min_pct": 58,
+      "hardness_max": "84 HRB",
+      "hardness_hrb_val": 84,
+      "modulus_of_elasticity_gpa": 198
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 18.2,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 21.0,
+      "cpt_c": 5.0,
+      "cct_c": -2.0,
+      "general_corrosion_score": 8.0,
+      "pitting_resistance_score": 7.3,
+      "chloride_suitability": "Superior to standard 304 in salt spray (500 hrs without rust as per ASTM B117)",
+      "scc_resistance": "Moderate (improved by nitrogen solid solution)",
+      "sensitization_resistance": "Good (controlled carbon and balanced chemistry)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.4,
+      "deep_drawability_ldr": 2.1,
+      "erichsen_cupping_mm": 13.5,
+      "weldability_score": 9.0,
+      "machinability_score": 6.2,
+      "recommended_welding": "Easily weldable by MMAW, TIG, MIG using E308/ER308L filler consumables."
+    },
+    "commercial": {
+      "relative_cost_index": 5.8,
+      "cost_band": "Cost-Effective",
+      "market_availability": "Readily Available (Coils, Plates, Sheets)"
+    },
+    "typical_applications": [
+      "Commercial appliances and microwave ovens",
+      "Architectural trims and mailboxes",
+      "Beverage barrels, wine vats, and conveyor belts",
+      "Citrus and fruit juice handling pipelines",
+      "Bakery carts, food processing counters",
+      "Tableware, forks, spoons, and water bottles"
+    ],
+    "limitations": [
+      "Not intended for severe marine splash zones or boiling seawater",
+      "Requires higher forming force than lower-strength grades due to 351 MPa yield strength"
+    ],
+    "standards": [
+      "Conforms fully to ASTM A240 specification of 304 grade"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: 304* Austenitic Stainless Steel, pp. 1-6",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 304 (High-N Optimized)",
+    "equivalent_bis": "05Cr18Ni6N (IS 6911)",
+    "equivalent_en": "EN 1.4301",
+    "equivalent_uns": "UNS S30400",
+    "equivalent_jis": "SUS 304"
+  },
+  {
+    "grade_name": "J-304L",
+    "aliases": [
+      "AISI 304L",
+      "UNS S30403",
+      "EN 1.4307",
+      "SUS 304L"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (mildly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.5,
+      "Cr_max": 19.5,
+      "Ni_min": 8.0,
+      "Ni_max": 12.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 170,
+      "tensile_strength_min_mpa": 485,
+      "elongation_min_pct": 40,
+      "hardness_max": "92 HRB",
+      "hardness_hrb_val": 92,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 17.3,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 19.5,
+      "cpt_c": -3.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.5,
+      "pitting_resistance_score": 6.5,
+      "chloride_suitability": "Moderate; comparable to 304 but immune to weld decay/intergranular attack",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Excellent (Extra-low carbon eliminates carbide precipitation during welding)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.3,
+      "deep_drawability_ldr": 2.1,
+      "erichsen_cupping_mm": 13.2,
+      "weldability_score": 9.8,
+      "machinability_score": 6.8,
+      "recommended_welding": "Outstanding weldability without need for post-weld heat treatment. Filler: AWS ER308L."
+    },
+    "commercial": {
+      "relative_cost_index": 6.7,
+      "cost_band": "Moderate",
+      "market_availability": "Universal (Coils, Plates, Sheets, Pipes)"
+    },
+    "typical_applications": [
+      "Welded chemical processing tanks",
+      "Mining slurry containers",
+      "Dairy and brewery heavy piping",
+      "Pharmaceutical equipment",
+      "Food handling machinery where heavy welding is required"
+    ],
+    "limitations": [
+      "Slightly lower yield strength (170 MPa) than standard 304 (205 MPa)",
+      "Not suitable for hot marine environments or strong chloride solutions"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2",
+      "ASME SA240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J304/J304H/J304L/J304LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 304L",
+    "equivalent_bis": "02Cr18Ni11 (IS 6911)",
+    "equivalent_en": "EN 1.4307",
+    "equivalent_uns": "UNS S30403",
+    "equivalent_jis": "SUS 304L"
+  },
+  {
+    "grade_name": "J-304LN",
+    "aliases": [
+      "AISI 304LN",
+      "UNS S30453",
+      "EN 1.4311",
+      "SUS 304LN"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (retains low permeability even under cold work)",
+    "magnetic_permeability_relative": 1.01,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 18.0,
+      "Cr_max": 20.0,
+      "Ni_min": 8.0,
+      "Ni_max": 12.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_min": 0.1,
+      "N_max": 0.16,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 240,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 17.3,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 21.2,
+      "cpt_c": 8.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 7.8,
+      "pitting_resistance_score": 7.4,
+      "chloride_suitability": "Good in moderate atmospheric and mild chemical conditions",
+      "scc_resistance": "Moderate to Good",
+      "sensitization_resistance": "Excellent (Low C + Nitrogen stabilization)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.8,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.8,
+      "weldability_score": 9.5,
+      "machinability_score": 6.2,
+      "recommended_welding": "Excellent weldability. Retains high strength and ductility across heat-affected zone."
+    },
+    "commercial": {
+      "relative_cost_index": 7.0,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate to High"
+    },
+    "typical_applications": [
+      "Nuclear industry components",
+      "Cryogenic pressure vessels and liquid gas storage",
+      "Heat exchangers and chemical piping",
+      "Railroad car structural members",
+      "Valves and high-strength flanges"
+    ],
+    "limitations": [
+      "Higher alloy cost than plain 304",
+      "Not a replacement for molybdenum-bearing 316L in severe marine/acidic environments"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J304/J304H/J304L/J304LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 304LN",
+    "equivalent_bis": "02Cr18Ni10N (IS 6911)",
+    "equivalent_en": "EN 1.4311",
+    "equivalent_uns": "UNS S30453",
+    "equivalent_jis": "SUS 304LN"
+  },
+  {
+    "grade_name": "J-304H",
+    "aliases": [
+      "AISI 304H",
+      "UNS S30409",
+      "EN 1.4948"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_min": 0.04,
+      "C_max": 0.1,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 18.0,
+      "Cr_max": 20.0,
+      "Ni_min": 8.0,
+      "Ni_max": 10.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "92 HRB",
+      "hardness_hrb_val": 92,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 17.3,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 19.0,
+      "cpt_c": -5.0,
+      "cct_c": -10.0,
+      "general_corrosion_score": 7.0,
+      "pitting_resistance_score": 6.2,
+      "chloride_suitability": "Moderate",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Low (higher carbon facilitates carbide precipitation if held in 450-850\u00b0C)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 900,
+      "scaling_temperature_c": 900
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.5,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.5,
+      "weldability_score": 8.0,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308H filler."
+    },
+    "commercial": {
+      "relative_cost_index": 6.8,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Petroleum refineries and boilers",
+      "Heat exchangers and steam exhausts operating above 450\u00b0C",
+      "Condensers and high-temperature pipelines",
+      "Electric power generation plants",
+      "Fertilizer high-temperature reactors"
+    ],
+    "limitations": [
+      "Higher carbon content makes it prone to sensitization in wet corrosive conditions",
+      "Not recommended for wet corrosion after exposure to high temperature"
+    ],
+    "standards": [
+      "ASTM A240",
+      "ASME SA240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J304/J304H/J304L/J304LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 304H",
+    "equivalent_bis": "07Cr19Ni10 (IS 6911)",
+    "equivalent_en": "EN 1.4948",
+    "equivalent_uns": "UNS S30409",
+    "equivalent_jis": "SUS 304H"
+  },
+  {
+    "grade_name": "J-305",
+    "aliases": [
+      "AISI 305",
+      "UNS S30500",
+      "EN 1.4303",
+      "SUS 305"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (retains lowest magnetic permeability after heavy cold work)",
+    "magnetic_permeability_relative": 1.005,
+    "composition": {
+      "C_max": 0.12,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.0,
+      "Cr_max": 19.0,
+      "Ni_min": 10.5,
+      "Ni_max": 13.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 170,
+      "tensile_strength_min_mpa": 485,
+      "elongation_min_pct": 40,
+      "hardness_max": "88 HRB",
+      "hardness_hrb_val": 88,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7930,
+      "thermal_conductivity_w_mk": 16.2,
+      "thermal_expansion_coeff_um_m_c": 17.3,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 18.5,
+      "cpt_c": -4.0,
+      "cct_c": -8.0,
+      "general_corrosion_score": 7.4,
+      "pitting_resistance_score": 6.4,
+      "chloride_suitability": "Moderate (similar to 304 in chemical and food atmospheres)",
+      "scc_resistance": "Moderate to High (higher nickel improves SCC resistance over 304)",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 900,
+      "intermittent_service_temp_c": 900,
+      "scaling_temperature_c": 900
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.9,
+      "deep_drawability_ldr": 2.3,
+      "erichsen_cupping_mm": 14.0,
+      "weldability_score": 9.0,
+      "machinability_score": 6.4,
+      "recommended_welding": "Easily weldable. Filler: AWS ER308 / ER309."
+    },
+    "commercial": {
+      "relative_cost_index": 7.8,
+      "cost_band": "Higher Cost (High Nickel)",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Spun or deep drawn eyelets, barrels, shells",
+      "Cold headed rivets, bolts, and screws",
+      "Complex spun cookware and musical instruments",
+      "Electronic shield cans and housings requiring non-magnetic properties after cold forming"
+    ],
+    "limitations": [
+      "Higher raw material cost due to 10.5-13% nickel content",
+      "Lower strength in annealed state compared to nitrogen-strengthened grades"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J305 Austenitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 305",
+    "equivalent_bis": "08Cr18Ni12 (IS 6911)",
+    "equivalent_en": "EN 1.4303",
+    "equivalent_uns": "UNS S30500",
+    "equivalent_jis": "SUS 305"
+  },
+  {
+    "grade_name": "J-316",
+    "aliases": [
+      "AISI 316",
+      "UNS S31600",
+      "EN 1.4401",
+      "SUS 316"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (practically non-magnetic even after mild cold work)",
+    "magnetic_permeability_relative": 1.01,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 10.0,
+      "Ni_max": 14.0,
+      "Mo_min": 2.0,
+      "Mo_max": 3.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7980,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 15.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 23.5,
+      "cpt_c": 18.0,
+      "cct_c": -3.0,
+      "general_corrosion_score": 8.8,
+      "pitting_resistance_score": 8.4,
+      "chloride_suitability": "High (Molybdenum addition protects against pitting in marine & coastal atmospheres)",
+      "scc_resistance": "Moderate (better than 304 due to 2.5% Mo and 10-14% Ni)",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 840,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.8,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.5,
+      "weldability_score": 8.8,
+      "machinability_score": 6.0,
+      "recommended_welding": "Weldable by SMAW, GTAW, GMAW using AWS E316/ER316 consumables."
+    },
+    "commercial": {
+      "relative_cost_index": 8.0,
+      "cost_band": "High (Molybdenum alloyed)",
+      "market_availability": "Universal (Plates, Coils, Sheets, Bars, Tubes)"
+    },
+    "typical_applications": [
+      "Marine exteriors and architectural coastal trims",
+      "Chemical processing equipment",
+      "Pharmaceutical equipment",
+      "Petroleum refining equipment",
+      "Pulp & paper processing equipment",
+      "Photographic processing equipment"
+    ],
+    "limitations": [
+      "Significantly higher cost than 304/200-series",
+      "For heavy welding without post-weld annealing, 316L is preferred to avoid intergranular attack",
+      "Not immune to chloride crevice corrosion in stagnant warm seawater (use duplex 2205 or super duplex 2507 instead)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2",
+      "ASME SA240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J316/J316L/J316Ti Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 316",
+    "equivalent_bis": "04Cr17Ni12Mo2 (IS 6911)",
+    "equivalent_en": "EN 1.4401",
+    "equivalent_uns": "UNS S31600",
+    "equivalent_jis": "SUS 316"
+  },
+  {
+    "grade_name": "J-316L",
+    "aliases": [
+      "AISI 316L",
+      "UNS S31603",
+      "EN 1.4404",
+      "SUS 316L"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (practically non-magnetic even after heavy deformation)",
+    "magnetic_permeability_relative": 1.008,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 10.0,
+      "Ni_max": 14.0,
+      "Mo_min": 2.0,
+      "Mo_max": 3.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 170,
+      "tensile_strength_min_mpa": 485,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7980,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 15.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 23.53,
+      "cpt_c": 20.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 9.0,
+      "pitting_resistance_score": 8.6,
+      "chloride_suitability": "High (industry benchmark for marine, pharmaceutical, and food equipment)",
+      "scc_resistance": "Moderate (better than 304, but can crack above 60\u00b0C under stress)",
+      "sensitization_resistance": "Outstanding (Extra-low carbon prevents intergranular corrosion during welding)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 840,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.9,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.6,
+      "weldability_score": 9.8,
+      "machinability_score": 6.2,
+      "recommended_welding": "Superb weldability; no post-weld annealing required. AWS ER316L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 8.2,
+      "cost_band": "High",
+      "market_availability": "Universal (Plates, Coils, Sheets, Bars, Tubes, Fittings)"
+    },
+    "typical_applications": [
+      "Coastal architectural paneling and hardware",
+      "Pharmaceutical equipment and bioreactors",
+      "Chemical transportation containers and road tankers",
+      "Brewery and dairy tanks",
+      "Laboratory equipment and surgical implants",
+      "Marine heat exchangers and exhaust scrubbers"
+    ],
+    "limitations": [
+      "Higher raw material cost than 304 and 200 series",
+      "Relatively low yield strength (170 MPa); lean duplex 2101 or 2205 gives 2x strength at equal or lower cost",
+      "Can suffer crevice corrosion under marine deposits/biofouling"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2",
+      "ASME SA240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J316/J316L/J316Ti Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 316L",
+    "equivalent_bis": "02Cr17Ni12Mo2 (IS 6911)",
+    "equivalent_en": "EN 1.4404",
+    "equivalent_uns": "UNS S31603",
+    "equivalent_jis": "SUS 316L"
+  },
+  {
+    "grade_name": "J-316LN",
+    "aliases": [
+      "AISI 316LN",
+      "UNS S31653",
+      "EN 1.4429",
+      "SUS 316LN"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (ultra-low magnetic permeability even at cryogenic temperatures)",
+    "magnetic_permeability_relative": 1.005,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 10.0,
+      "Ni_max": 14.0,
+      "Mo_min": 2.0,
+      "Mo_max": 3.0,
+      "N_min": 0.1,
+      "N_max": 0.16,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 240,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7980,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 15.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 25.5,
+      "cpt_c": 24.0,
+      "cct_c": 2.0,
+      "general_corrosion_score": 9.2,
+      "pitting_resistance_score": 8.9,
+      "chloride_suitability": "Excellent in chloride and acidic environments",
+      "scc_resistance": "Good",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -269,
+      "max_continuous_temp_c": 840,
+      "intermittent_service_temp_c": 870,
+      "scaling_temperature_c": 870
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.5,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.2,
+      "weldability_score": 9.6,
+      "machinability_score": 5.8,
+      "recommended_welding": "Excellent weldability with ER316L / ER316LMn fillers."
+    },
+    "commercial": {
+      "relative_cost_index": 8.5,
+      "cost_band": "High",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Superconducting magnets and cryogenic containers (ITER, CERN)",
+      "High-pressure chemical equipment and autoclaves",
+      "Nuclear reprocessing components",
+      "Severe offshore marine fasteners and flanges"
+    ],
+    "limitations": [
+      "High cost and specialized supply chain",
+      "Requires higher cutting force during machining"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2",
+      "ASME Section III/VIII"
+    ],
+    "source_reference": "Jindal Stainless Grade Catalog: Austenitic Cr-Ni, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 316LN",
+    "equivalent_bis": "02Cr17Ni12Mo2N (IS 6911)",
+    "equivalent_en": "EN 1.4429",
+    "equivalent_uns": "UNS S31653",
+    "equivalent_jis": "SUS 316LN"
+  },
+  {
+    "grade_name": "J-316Ti",
+    "aliases": [
+      "AISI 316Ti",
+      "UNS S31635",
+      "EN 1.4571",
+      "SUS 316Ti"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.01,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 10.0,
+      "Ni_max": 14.0,
+      "Mo_min": 2.0,
+      "Mo_max": 3.0,
+      "Ti_min": 0.25,
+      "Ti_max": 0.7,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7980,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 15.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 23.5,
+      "cpt_c": 20.0,
+      "cct_c": -3.0,
+      "general_corrosion_score": 8.9,
+      "pitting_resistance_score": 8.5,
+      "chloride_suitability": "High",
+      "scc_resistance": "Moderate to Good",
+      "sensitization_resistance": "Outstanding at elevated temperatures due to titanium carbide stabilization"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 870,
+      "intermittent_service_temp_c": 900,
+      "scaling_temperature_c": 900
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.6,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.3,
+      "weldability_score": 9.2,
+      "machinability_score": 5.8,
+      "recommended_welding": "Weldable with ER318 or ER316L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 8.3,
+      "cost_band": "High",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Chemical & petrochemical processing operating in 550-800\u00b0C range",
+      "Flue gas ducts and industrial chimneys",
+      "Offshore heat exchanger components subject to thermal cycles"
+    ],
+    "limitations": [
+      "Titanium nitrides/carbides can reduce polishability to mirror finish",
+      "Higher tool wear in machining than 316L"
+    ],
+    "standards": [
+      "ASTM A240",
+      "DIN EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J316/J316L/J316Ti Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 316Ti",
+    "equivalent_bis": "05Cr17Ni12Mo2Ti (IS 6911)",
+    "equivalent_en": "EN 1.4571",
+    "equivalent_uns": "UNS S31635",
+    "equivalent_jis": "SUS 316Ti"
+  },
+  {
+    "grade_name": "J-317L",
+    "aliases": [
+      "AISI 317L",
+      "UNS S31703",
+      "EN 1.4438",
+      "SUS 317L"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.008,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 18.0,
+      "Cr_max": 20.0,
+      "Ni_min": 11.0,
+      "Ni_max": 15.0,
+      "Mo_min": 3.0,
+      "Mo_max": 4.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7950,
+      "thermal_conductivity_w_mk": 14.6,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.79
+    },
+    "corrosion_properties": {
+      "pren": 29.0,
+      "cpt_c": 35.0,
+      "cct_c": 5.0,
+      "general_corrosion_score": 9.4,
+      "pitting_resistance_score": 9.2,
+      "chloride_suitability": "Very High (3-4% Mo provides exceptional resistance in halides and organic acids)",
+      "scc_resistance": "Good",
+      "sensitization_resistance": "Outstanding (Extra-low carbon)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 880,
+      "scaling_temperature_c": 880
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.5,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.0,
+      "weldability_score": 9.4,
+      "machinability_score": 5.5,
+      "recommended_welding": "Weldable with ER317L or over-alloyed Ni-base consumables."
+    },
+    "commercial": {
+      "relative_cost_index": 8.9,
+      "cost_band": "Very High",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Pulp & paper bleaching plants and digesters",
+      "Fossil and nuclear fueled power generation condensers",
+      "Chemical & petrochemical processing handling acidic chlorides",
+      "Flue gas desulfurization systems",
+      "Textile dyeing and finishing equipment"
+    ],
+    "limitations": [
+      "High price due to elevated Ni and Mo",
+      "Work hardens rapidly during machining; requires rigid tooling"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: 317L/317LN/317LMN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 317L",
+    "equivalent_bis": "02Cr19Ni13Mo3 (IS 6911)",
+    "equivalent_en": "EN 1.4438",
+    "equivalent_uns": "UNS S31703",
+    "equivalent_jis": "SUS 317L"
+  },
+  {
+    "grade_name": "J-317LMN",
+    "aliases": [
+      "AISI 317LMN",
+      "UNS S31726",
+      "EN 1.4439"
+    ],
+    "family": "Austenitic Cr-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.005,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.0,
+      "Cr_max": 20.0,
+      "Ni_min": 13.5,
+      "Ni_max": 17.5,
+      "Mo_min": 4.0,
+      "Mo_max": 5.0,
+      "N_min": 0.1,
+      "N_max": 0.2,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 240,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 40,
+      "hardness_max": "96 HRB",
+      "hardness_hrb_val": 96,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7950,
+      "thermal_conductivity_w_mk": 14.6,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.79
+    },
+    "corrosion_properties": {
+      "pren": 34.0,
+      "cpt_c": 50.0,
+      "cct_c": 15.0,
+      "general_corrosion_score": 9.7,
+      "pitting_resistance_score": 9.5,
+      "chloride_suitability": "Extremely High (Corrosion resistance is only slightly below 904L)",
+      "scc_resistance": "Very Good",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 880,
+      "scaling_temperature_c": 880
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.2,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 11.8,
+      "weldability_score": 9.2,
+      "machinability_score": 5.2,
+      "recommended_welding": "Weldable with over-alloyed Ni-Cr-Mo fillers (e.g. Alloy 625)."
+    },
+    "commercial": {
+      "relative_cost_index": 9.3,
+      "cost_band": "High-End Specialty",
+      "market_availability": "Moderate to Low"
+    },
+    "typical_applications": [
+      "Flue gas desulfurization (FGD) stack liners, absorbers, ducts, and fans",
+      "Severe acidic chloride media in chemical plants",
+      "High-corrosion pharmaceutical reaction vessels",
+      "Pulp & paper bleach plant washers"
+    ],
+    "limitations": [
+      "Very high alloy cost due to 4-5% Mo and 13.5-17.5% Ni",
+      "Requires high tool power for machining"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: 317L/317LN/317LMN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 317LMN",
+    "equivalent_bis": "02Cr18Ni15Mo4N (IS 6911)",
+    "equivalent_en": "EN 1.4439",
+    "equivalent_uns": "UNS S31726",
+    "equivalent_jis": "SUS 317LMN"
+  },
+  {
+    "grade_name": "J-321",
+    "aliases": [
+      "AISI 321",
+      "UNS S32100",
+      "EN 1.4541",
+      "SUS 321"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.0,
+      "Cr_max": 19.0,
+      "Ni_min": 9.0,
+      "Ni_max": 13.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.25,
+      "Ti_max": 0.7,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7925,
+      "thermal_conductivity_w_mk": 16.1,
+      "thermal_expansion_coeff_um_m_c": 17.1,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 18.5,
+      "cpt_c": -2.0,
+      "cct_c": -6.0,
+      "general_corrosion_score": 7.6,
+      "pitting_resistance_score": 6.7,
+      "chloride_suitability": "Moderate",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Outstanding in 450-900\u00b0C service (Titanium ties up carbon as TiC)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 870,
+      "intermittent_service_temp_c": 925,
+      "scaling_temperature_c": 925
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.8,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.8,
+      "weldability_score": 9.2,
+      "machinability_score": 6.2,
+      "recommended_welding": "Weldable with AWS ER321 or ER347 filler wire."
+    },
+    "commercial": {
+      "relative_cost_index": 7.2,
+      "cost_band": "Moderate-High",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Aircraft exhaust manifolds and collector rings",
+      "Expansion joints and bellows",
+      "High temperature gaskets",
+      "Stack liners and thin wall engine tubes",
+      "Large mufflers and pressure vessels in 450-900\u00b0C range"
+    ],
+    "limitations": [
+      "Titanium stringers make it difficult to achieve high cosmetic mirror polish",
+      "Not recommended for chloride marine service (does not contain Mo)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J321 Austenitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 321",
+    "equivalent_bis": "04Cr18Ni10Ti (IS 6911)",
+    "equivalent_en": "EN 1.4541",
+    "equivalent_uns": "UNS S32100",
+    "equivalent_jis": "SUS 321"
+  },
+  {
+    "grade_name": "J-347",
+    "aliases": [
+      "AISI 347",
+      "UNS S34700",
+      "EN 1.4550",
+      "SUS 347"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 17.0,
+      "Cr_max": 19.0,
+      "Ni_min": 9.0,
+      "Ni_max": 13.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Nb_min": 0.5,
+      "Nb_max": 1.0,
+      "N_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "92 HRB",
+      "hardness_hrb_val": 92,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7960,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 16.6,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 18.5,
+      "cpt_c": -2.0,
+      "cct_c": -6.0,
+      "general_corrosion_score": 7.8,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Moderate (superior to 321 in strongly oxidizing acids)",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Outstanding (Niobium prevents chromium carbide precipitation)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 870,
+      "intermittent_service_temp_c": 925,
+      "scaling_temperature_c": 925
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.7,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.6,
+      "weldability_score": 9.4,
+      "machinability_score": 6.1,
+      "recommended_welding": "Weldable with AWS ER347 filler wire."
+    },
+    "commercial": {
+      "relative_cost_index": 7.6,
+      "cost_band": "Moderate-High (Nb stabilized)",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Rocket engine parts and aerospace collector rings",
+      "High temperature chemical production equipment",
+      "Expansion joints and high temperature gaskets",
+      "Heavy welded parts operating continuously in 450-850\u00b0C"
+    ],
+    "limitations": [
+      "Higher raw material cost than 321 due to Niobium alloying",
+      "Susceptible to chloride pitting if used in coastal/marine environments"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J347 Austenitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 347",
+    "equivalent_bis": "04Cr18Ni10Nb (IS 6911)",
+    "equivalent_en": "EN 1.4550",
+    "equivalent_uns": "UNS S34700",
+    "equivalent_jis": "SUS 347"
+  },
+  {
+    "grade_name": "J-904L",
+    "aliases": [
+      "AISI 904L",
+      "UNS N08904",
+      "EN 1.4539",
+      "SUS 890L"
+    ],
+    "family": "Super Austenitic Cr-Ni-Mo-Cu",
+    "microstructure": "Fully Austenitic",
+    "magnetic_behavior": "Non-magnetic (completely non-magnetic in all conditions)",
+    "magnetic_permeability_relative": 1.002,
+    "composition": {
+      "C_max": 0.02,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.035,
+      "Si_max": 1.0,
+      "Cr_min": 19.0,
+      "Cr_max": 23.0,
+      "Ni_min": 23.0,
+      "Ni_max": 28.0,
+      "Mo_min": 4.0,
+      "Mo_max": 5.0,
+      "Cu_min": 1.0,
+      "Cu_max": 2.0,
+      "N_max": 0.1,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 220,
+      "tensile_strength_min_mpa": 490,
+      "elongation_min_pct": 35,
+      "hardness_max": "90 HRB",
+      "hardness_hrb_val": 90,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7950,
+      "thermal_conductivity_w_mk": 11.5,
+      "thermal_expansion_coeff_um_m_c": 15.6,
+      "electrical_resistivity_uohm_m": 0.95
+    },
+    "corrosion_properties": {
+      "pren": 34.2,
+      "cpt_c": 65.0,
+      "cct_c": 10.0,
+      "general_corrosion_score": 9.9,
+      "pitting_resistance_score": 9.6,
+      "chloride_suitability": "Exceptional in warm chlorides, sulphuric acid, and phosphoric acid",
+      "scc_resistance": "Outstanding (25% Nickel provides near-immunity to chloride SCC)",
+      "sensitization_resistance": "Outstanding (0.02% max C prevents intergranular attack)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -269,
+      "max_continuous_temp_c": 450,
+      "intermittent_service_temp_c": 500,
+      "scaling_temperature_c": 500
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.5,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.0,
+      "weldability_score": 9.5,
+      "machinability_score": 5.0,
+      "recommended_welding": "Readily weldable without preheat. Use over-alloyed 904L or AWS ERNiCrMo-3 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 9.8,
+      "cost_band": "High-End Super Austenitic",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Sulphuric acid and phosphoric acid production and storage tanks",
+      "Fertilizer industry reaction vessels",
+      "Bleaching equipment in pulp and paper plants",
+      "Seawater cooling systems and heat exchangers",
+      "Flue gas scrubbers handling hot acidic chlorides"
+    ],
+    "limitations": [
+      "Very high material cost due to 25% Ni and 4.5% Mo",
+      "Not meant for high-temperature service above 450\u00b0C",
+      "Lower yield strength than duplex alloys (220 MPa vs 450-550 MPa in 2205/2507)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS N08904",
+      "EN 1.4539"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J904L Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 904L",
+    "equivalent_bis": "02Cr20Ni25Mo4.5Cu (IS 6911)",
+    "equivalent_en": "EN 1.4539",
+    "equivalent_uns": "UNS N08904",
+    "equivalent_jis": "SUS 890L"
+  },
+  {
+    "grade_name": "EN 1.4828",
+    "aliases": [
+      "J1.4828",
+      "ASTM 309S (High Si)",
+      "Heat Resistant Cr-Ni-Si"
+    ],
+    "family": "Austenitic Cr-Ni-Si",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.2,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.015,
+      "Si_min": 1.5,
+      "Si_max": 2.5,
+      "Cr_min": 19.0,
+      "Cr_max": 21.0,
+      "Ni_min": 11.0,
+      "Ni_max": 13.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 230,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 28,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7900,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.85
+    },
+    "corrosion_properties": {
+      "pren": 20.0,
+      "cpt_c": 0.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.5,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Moderate (better than 304 in marine atmosphere in solution annealed condition)",
+      "scc_resistance": "Moderate to Good",
+      "sensitization_resistance": "Engineered for high-temp oxidation rather than wet aqueous sensitization"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 1000,
+      "intermittent_service_temp_c": 1050,
+      "scaling_temperature_c": 1000
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.5,
+      "deep_drawability_ldr": 1.85,
+      "erichsen_cupping_mm": 11.0,
+      "weldability_score": 8.5,
+      "machinability_score": 6.0,
+      "recommended_welding": "Weldable using matching heat-resistant filler consumables."
+    },
+    "commercial": {
+      "relative_cost_index": 7.9,
+      "cost_band": "High (Heat Resisting Alloy)",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Industrial furnace parts and kiln linings",
+      "Conveyor belts for heat-treating furnaces",
+      "Heating elements and burner components",
+      "Refinery and chemical processing heat exchangers",
+      "Exhaust systems operating up to 1000\u00b0C"
+    ],
+    "limitations": [
+      "Lower ductility (%EL 28% min) than standard 304 (40%)",
+      "Not intended for severe wet aqueous acid/chemical immersion"
+    ],
+    "standards": [
+      "EN 10088-2",
+      "EN 10095",
+      "1.4828"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: EN 1.4828 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 309 (High Si)",
+    "equivalent_bis": "15Cr20Ni12Si2 (IS 6911)",
+    "equivalent_en": "EN 1.4828",
+    "equivalent_uns": "UNS S30900",
+    "equivalent_jis": "SUH 309"
+  },
+  {
+    "grade_name": "EN 1.4841",
+    "aliases": [
+      "J1.4841",
+      "AISI 314",
+      "Heat Resistant Cr-Ni-Si up to 1200\u00b0C"
+    ],
+    "family": "Austenitic Cr-Ni-Si",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.2,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.015,
+      "Si_min": 1.5,
+      "Si_max": 2.5,
+      "Cr_min": 24.0,
+      "Cr_max": 26.0,
+      "Ni_min": 19.0,
+      "Ni_max": 22.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 230,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 28,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7900,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 15.5,
+      "electrical_resistivity_uohm_m": 0.84
+    },
+    "corrosion_properties": {
+      "pren": 25.0,
+      "cpt_c": 10.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 8.2,
+      "pitting_resistance_score": 7.5,
+      "chloride_suitability": "Good in high-temperature moist air and carburizing atmospheres",
+      "scc_resistance": "High (19-22% Ni gives high resistance to SCC in hot caustic and salts)",
+      "sensitization_resistance": "High oxidation and carburization resistance up to 1200\u00b0C"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 1150,
+      "intermittent_service_temp_c": 1200,
+      "scaling_temperature_c": 1200
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.2,
+      "deep_drawability_ldr": 1.8,
+      "erichsen_cupping_mm": 10.5,
+      "weldability_score": 8.5,
+      "machinability_score": 5.6,
+      "recommended_welding": "Weldable with matching high-alloy austenitic consumables (AWS ER310/314)."
+    },
+    "commercial": {
+      "relative_cost_index": 8.8,
+      "cost_band": "High-End Heat Resistant",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Furnace rollers, kiln liners, annealing muffles",
+      "Conveyor belts operating up to 1200\u00b0C",
+      "Carburizing boxes and heat-treating fixtures",
+      "Petrochemical pyrolysis tubing and flare stacks",
+      "Glass manufacturing molds and furnace dampers"
+    ],
+    "limitations": [
+      "Susceptible to sigma phase embrittlement between 600-850\u00b0C upon long cooling cycles",
+      "High alloy cost due to 25% Cr and 20% Ni"
+    ],
+    "standards": [
+      "EN 10088-2",
+      "EN 10095",
+      "1.4841"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: EN 1.4841 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 314",
+    "equivalent_bis": "15Cr25Ni20Si2 (IS 6911)",
+    "equivalent_en": "EN 1.4841",
+    "equivalent_uns": "UNS S31400",
+    "equivalent_jis": "SUH 310"
+  },
+  {
+    "grade_name": "J-309S",
+    "aliases": [
+      "AISI 309S",
+      "UNS S30908",
+      "EN 1.4833"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 0.75,
+      "Cr_min": 22.0,
+      "Cr_max": 24.0,
+      "Ni_min": 12.0,
+      "Ni_max": 15.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7900,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 16.0,
+      "electrical_resistivity_uohm_m": 0.78
+    },
+    "corrosion_properties": {
+      "pren": 23.0,
+      "cpt_c": 15.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 8.0,
+      "pitting_resistance_score": 7.2,
+      "chloride_suitability": "Good in marine atmosphere; handles nitric acid and sulfite liquors",
+      "scc_resistance": "Good",
+      "sensitization_resistance": "Good (Low carbon minimizes carbide precipitation during welding)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 1000,
+      "intermittent_service_temp_c": 1090,
+      "scaling_temperature_c": 1090
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 11.5,
+      "weldability_score": 9.0,
+      "machinability_score": 6.0,
+      "recommended_welding": "Easily weldable using AWS ER309 / ER309L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 7.7,
+      "cost_band": "High",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Furnace baffles and burner nozzles",
+      "Sulfite liquor handling equipment in paper mills",
+      "Boiler fire box sheets and kiln liners",
+      "Automotive exhaust high-temperature manifolds",
+      "Refinery heating coils"
+    ],
+    "limitations": [
+      "Subject to sigma formation if exposed for long periods between 650-850\u00b0C",
+      "High cost compared to 304"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J309S Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 309S",
+    "equivalent_bis": "05Cr24Ni13 (IS 6911)",
+    "equivalent_en": "EN 1.4833",
+    "equivalent_uns": "UNS S30908",
+    "equivalent_jis": "SUS 309S"
+  },
+  {
+    "grade_name": "J-310S",
+    "aliases": [
+      "AISI 310S",
+      "UNS S31008",
+      "EN 1.4845"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 1.5,
+      "Cr_min": 24.0,
+      "Cr_max": 26.0,
+      "Ni_min": 19.0,
+      "Ni_max": 22.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7990,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 15.5,
+      "electrical_resistivity_uohm_m": 0.78
+    },
+    "corrosion_properties": {
+      "pren": 25.0,
+      "cpt_c": 20.0,
+      "cct_c": 5.0,
+      "general_corrosion_score": 8.5,
+      "pitting_resistance_score": 7.8,
+      "chloride_suitability": "Excellent resistance to hot alkaline media and nitric acid",
+      "scc_resistance": "Outstanding (High 20% Ni confers high SCC resistance in hot chlorides)",
+      "sensitization_resistance": "Good (controlled carbon)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 1100,
+      "intermittent_service_temp_c": 1150,
+      "scaling_temperature_c": 1150
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 11.8,
+      "weldability_score": 8.8,
+      "machinability_score": 5.8,
+      "recommended_welding": "Weldable with AWS E310/ER310 consumables."
+    },
+    "commercial": {
+      "relative_cost_index": 8.7,
+      "cost_band": "High (20% Ni, 25% Cr)",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Furnace retorts, burner parts, and radiant tubes",
+      "Gas turbine nozzle diaphragms and combustion cans",
+      "Thermal oxidizers and recuperators",
+      "Petroleum catalytic cracking and hydrocracker components",
+      "Hot concentrated nitric acid tanks"
+    ],
+    "limitations": [
+      "Prone to sigma phase embrittlement between 650-850\u00b0C if held for extended periods",
+      "High thermal expansion compared to ferritic stainless steels"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J310S Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 310S",
+    "equivalent_bis": "05Cr25Ni20 (IS 6911)",
+    "equivalent_en": "EN 1.4845",
+    "equivalent_uns": "UNS S31008",
+    "equivalent_jis": "SUS 310S"
+  },
+  {
+    "grade_name": "UNS S30815",
+    "aliases": [
+      "EN 1.4835",
+      "253 MA",
+      "Cr-Ni-N-Ce Heat Resistant"
+    ],
+    "family": "Austenitic Micro-alloyed",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_min": 0.05,
+      "C_max": 0.1,
+      "Mn_max": 0.8,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_min": 1.4,
+      "Si_max": 2.0,
+      "Cr_min": 20.0,
+      "Cr_max": 22.0,
+      "Ni_min": 10.0,
+      "Ni_max": 12.0,
+      "N_min": 0.14,
+      "N_max": 0.2,
+      "Ce_min": 0.03,
+      "Ce_max": 0.08,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 310,
+      "tensile_strength_min_mpa": 600,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 16.0,
+      "electrical_resistivity_uohm_m": 0.85
+    },
+    "corrosion_properties": {
+      "pren": 24.5,
+      "cpt_c": 20.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 8.0,
+      "pitting_resistance_score": 7.4,
+      "chloride_suitability": "Similar to 316L in chloride solutions; high resistance to molten salts and lead",
+      "scc_resistance": "Superior to 304 in aqueous chloride solutions",
+      "sensitization_resistance": "Engineered for superior high-temperature creep strength above 850\u00b0C"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 1100,
+      "intermittent_service_temp_c": 1150,
+      "scaling_temperature_c": 1150
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.2,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.0,
+      "weldability_score": 9.0,
+      "machinability_score": 6.0,
+      "recommended_welding": "Good weldability by SMAW, TIG, MIG. Low heat input recommended."
+    },
+    "commercial": {
+      "relative_cost_index": 7.5,
+      "cost_band": "High Performance",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Waste incinerator and combustion chambers",
+      "Furnace rolls and heat recovery pipes for carbon black",
+      "Recuperators and pyrometer protection tubes",
+      "Mineral wool and aluminium sulphate production equipment",
+      "High-temperature gas ducts up to 1100\u00b0C"
+    ],
+    "limitations": [
+      "Not primarily intended for severe wet aqueous acid corrosion",
+      "Contains cerium and nitrogen; requires controlled welding parameters"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S30815",
+      "EN 10095",
+      "EN 1.4835"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: UNS S30815/EN 1.4835 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S30815 (253 MA)",
+    "equivalent_bis": "08Cr21Ni11Si2NCe (IS 6911)",
+    "equivalent_en": "EN 1.4835",
+    "equivalent_uns": "UNS S30815",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-2101",
+    "aliases": [
+      "UNS S32101",
+      "EN 1.4162",
+      "Lean Duplex 2101",
+      "LDX 2101"
+    ],
+    "family": "Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (50/50 Duplex)",
+    "magnetic_behavior": "Ferromagnetic (Magnetic in all conditions)",
+    "magnetic_permeability_relative": 35.0,
+    "composition": {
+      "C_max": 0.04,
+      "Mn_min": 4.0,
+      "Mn_max": 6.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 21.0,
+      "Cr_max": 22.0,
+      "Ni_min": 1.35,
+      "Ni_max": 1.7,
+      "Mo_min": 0.1,
+      "Mo_max": 0.8,
+      "Cu_min": 0.1,
+      "Cu_max": 0.8,
+      "N_min": 0.2,
+      "N_max": 0.25,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 450,
+      "tensile_strength_min_mpa": 650,
+      "elongation_min_pct": 30,
+      "hardness_max": "290 BHN",
+      "hardness_hrb_val": 99,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 26.0,
+      "cpt_c": 20.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 8.9,
+      "pitting_resistance_score": 8.7,
+      "chloride_suitability": "Corrosion resistance comparable to 316L at significantly lower alloy cost",
+      "scc_resistance": "High (Duplex microstructure provides high resistance to chloride SCC)",
+      "sensitization_resistance": "High"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 300,
+      "intermittent_service_temp_c": 350,
+      "scaling_temperature_c": 350
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.0,
+      "deep_drawability_ldr": 1.75,
+      "erichsen_cupping_mm": 9.8,
+      "weldability_score": 8.6,
+      "machinability_score": 6.0,
+      "recommended_welding": "Weldable with duplex filler AWS 2209 or matching lean duplex consumables. Maintain interpass temperature <150\u00b0C."
+    },
+    "commercial": {
+      "relative_cost_index": 5.2,
+      "cost_band": "Very Cost-Effective (Low Ni: 1.5%)",
+      "market_availability": "High (Plates, Coils, Sheets)"
+    },
+    "typical_applications": [
+      "Storage tanks: Palm oil, wine, marble slurry, potable and sewage water, biodiesel",
+      "Infrastructure: Bridges, sluice gates, flood barriers",
+      "Water heaters and seawater cooling systems",
+      "Flue gas cleaning ducts and silos",
+      "Structural architectural members replacing 304/316L for thickness reduction"
+    ],
+    "limitations": [
+      "Magnetic in all conditions; cannot be used where non-magnetic properties are required",
+      "Upper temperature limited to 300\u00b0C to avoid 475\u00b0C spinodal decomposition and embrittlement",
+      "Lower cryogenic ductility below -40\u00b0C compared to 300 series"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S32101",
+      "EN 10088-2",
+      "EN 1.4162"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J2101 - UNS S32101 - EN 1.4162 Duplex Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S32101 (Lean Duplex)",
+    "equivalent_bis": "03Cr21Ni1.5Mn5MoN (IS 6911)",
+    "equivalent_en": "EN 1.4162",
+    "equivalent_uns": "UNS S32101",
+    "equivalent_jis": "SUS 32101"
+  },
+  {
+    "grade_name": "J-2304",
+    "aliases": [
+      "UNS S32304",
+      "EN 1.4362",
+      "Lean Duplex 2304",
+      "SAF 2304"
+    ],
+    "family": "Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (Duplex)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 33.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.5,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 21.5,
+      "Cr_max": 24.5,
+      "Ni_min": 3.0,
+      "Ni_max": 5.5,
+      "Mo_min": 0.05,
+      "Mo_max": 0.6,
+      "Cu_min": 0.05,
+      "Cu_max": 0.6,
+      "N_min": 0.05,
+      "N_max": 0.2,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 400,
+      "tensile_strength_min_mpa": 600,
+      "elongation_min_pct": 25,
+      "hardness_max": "290 BHN",
+      "hardness_hrb_val": 99,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 25.0,
+      "cpt_c": 25.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 8.8,
+      "pitting_resistance_score": 8.6,
+      "chloride_suitability": "Corrosion resistance comparable to 316L with double the yield strength",
+      "scc_resistance": "High (far superior to 304/316L in chloride SCC)",
+      "sensitization_resistance": "High"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 300,
+      "intermittent_service_temp_c": 350,
+      "scaling_temperature_c": 350
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.0,
+      "deep_drawability_ldr": 1.75,
+      "erichsen_cupping_mm": 9.5,
+      "weldability_score": 8.6,
+      "machinability_score": 6.2,
+      "recommended_welding": "Weldable with duplex 2209 or 2304 filler wire."
+    },
+    "commercial": {
+      "relative_cost_index": 5.9,
+      "cost_band": "Cost-Effective",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Bridges and highway infrastructure",
+      "Chemical storage tanks (ethanol, fruit juice, biodiesel)",
+      "Water heaters and heat exchangers",
+      "Sluice gates and water treatment structures",
+      "Flue gas cleaning scrubbers"
+    ],
+    "limitations": [
+      "Magnetic; unsuitable for non-magnetic requirements",
+      "Upper temperature limited to 300\u00b0C due to 475\u00b0C embrittlement"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S32304",
+      "EN 10088",
+      "EN 1.4362"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J2304 - UNS S32304 - EN 1.4362 Duplex Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S32304 (Lean Duplex)",
+    "equivalent_bis": "02Cr23Ni4MoN (IS 6911)",
+    "equivalent_en": "EN 1.4362",
+    "equivalent_uns": "UNS S32304",
+    "equivalent_jis": "SUS 32304"
+  },
+  {
+    "grade_name": "J-2205",
+    "aliases": [
+      "UNS S32205",
+      "EN 1.4462",
+      "Standard Duplex 2205",
+      "SAF 2205"
+    ],
+    "family": "Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (50/50 Duplex)",
+    "magnetic_behavior": "Ferromagnetic (Magnetic in all conditions)",
+    "magnetic_permeability_relative": 32.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.03,
+      "S_max": 0.02,
+      "Si_max": 1.0,
+      "Cr_min": 22.0,
+      "Cr_max": 23.0,
+      "Ni_min": 4.5,
+      "Ni_max": 6.5,
+      "Mo_min": 3.0,
+      "Mo_max": 3.5,
+      "N_min": 0.14,
+      "N_max": 0.2,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 450,
+      "tensile_strength_min_mpa": 655,
+      "elongation_min_pct": 25,
+      "hardness_max": "293 BHN / 31 HRC",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 35.0,
+      "cpt_c": 55.0,
+      "cct_c": 20.0,
+      "general_corrosion_score": 9.6,
+      "pitting_resistance_score": 9.5,
+      "chloride_suitability": "Superior to 316L in chloride pitting and crevice corrosion (CPT 55\u00b0C vs 20\u00b0C in 316L)",
+      "scc_resistance": "Outstanding (Duplex phase boundary arrests stress corrosion cracks)",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 300,
+      "intermittent_service_temp_c": 350,
+      "scaling_temperature_c": 350
+    },
+    "manufacturing_properties": {
+      "formability_score": 6.8,
+      "deep_drawability_ldr": 1.7,
+      "erichsen_cupping_mm": 9.0,
+      "weldability_score": 8.8,
+      "machinability_score": 5.8,
+      "recommended_welding": "Weldable by SMAW, GTAW, GMAW, SAW using AWS ER2209 filler. Heat input 0.5-2.5 kJ/mm."
+    },
+    "commercial": {
+      "relative_cost_index": 7.2,
+      "cost_band": "Moderate-High (High value due to 2x strength weight savings)",
+      "market_availability": "Universal (80% of world duplex market)"
+    },
+    "typical_applications": [
+      "Chemical industry: Sour gas piping, heat exchangers, vessels for chloride media",
+      "Oil & gas: Piping and process equipment, offshore platforms",
+      "Chemical cargo tankers in shipping",
+      "Flue gas desulphurization (FGD) systems",
+      "Pulp & paper digesters and bleaching towers",
+      "Desalination plant piping"
+    ],
+    "limitations": [
+      "Magnetic (cannot be used for non-magnetic specifications)",
+      "Upper temperature strictly limited to 300\u00b0C to avoid 475\u00b0C embrittlement",
+      "More difficult to deep-draw than 300-series due to 450+ MPa yield strength"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S32205",
+      "EN 10088",
+      "EN 1.4462",
+      "ASME SA240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J2205 - UNS S32205/EN 1.4462 Duplex Stainless Steel, pp. 1-5",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S32205 (Duplex 2205)",
+    "equivalent_bis": "02Cr22Ni5Mo3N (IS 6911)",
+    "equivalent_en": "EN 1.4462",
+    "equivalent_uns": "UNS S32205",
+    "equivalent_jis": "SUS 329J3L"
+  },
+  {
+    "grade_name": "J-31803",
+    "aliases": [
+      "UNS S31803",
+      "EN 1.4462",
+      "Standard Duplex 31803"
+    ],
+    "family": "Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (Duplex)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 32.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.03,
+      "S_max": 0.02,
+      "Si_max": 1.0,
+      "Cr_min": 21.0,
+      "Cr_max": 23.0,
+      "Ni_min": 4.5,
+      "Ni_max": 6.5,
+      "Mo_min": 2.5,
+      "Mo_max": 3.5,
+      "N_min": 0.08,
+      "N_max": 0.2,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 450,
+      "tensile_strength_min_mpa": 620,
+      "elongation_min_pct": 25,
+      "hardness_max": "293 BHN",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 34.0,
+      "cpt_c": 50.0,
+      "cct_c": 15.0,
+      "general_corrosion_score": 9.4,
+      "pitting_resistance_score": 9.3,
+      "chloride_suitability": "Much better corrosion resistance than 316L in chloride environments",
+      "scc_resistance": "Outstanding",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 300,
+      "intermittent_service_temp_c": 350,
+      "scaling_temperature_c": 350
+    },
+    "manufacturing_properties": {
+      "formability_score": 6.8,
+      "deep_drawability_ldr": 1.7,
+      "erichsen_cupping_mm": 9.2,
+      "weldability_score": 8.7,
+      "machinability_score": 5.8,
+      "recommended_welding": "Weldable with ER2209 filler wire."
+    },
+    "commercial": {
+      "relative_cost_index": 7.0,
+      "cost_band": "Moderate-High",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Sour gas piping and process equipment",
+      "Chemical tankers and cargo vessels",
+      "Electrostatic precipitators and scrubbers",
+      "Offshore oil & gas structures",
+      "Paper industry digesters"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Temperature restricted to 300\u00b0C maximum"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S31803",
+      "EN 10088",
+      "EN 1.4462"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J31803 - UNS S31803 - EN 1.4462 Duplex Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S31803 (Duplex 31803)",
+    "equivalent_bis": "02Cr22Ni5Mo3N (IS 6911)",
+    "equivalent_en": "EN 1.4462",
+    "equivalent_uns": "UNS S31803",
+    "equivalent_jis": "SUS 329J3L"
+  },
+  {
+    "grade_name": "J-32750",
+    "aliases": [
+      "UNS S32750",
+      "EN 1.4410",
+      "Super Duplex 2507",
+      "SAF 2507"
+    ],
+    "family": "Super Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (50/50 Duplex)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 30.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.2,
+      "P_max": 0.035,
+      "S_max": 0.02,
+      "Si_max": 0.8,
+      "Cr_min": 24.0,
+      "Cr_max": 26.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "Mo_min": 3.0,
+      "Mo_max": 5.0,
+      "N_min": 0.24,
+      "N_max": 0.32,
+      "Cu_max": 0.5,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 550,
+      "tensile_strength_min_mpa": 795,
+      "elongation_min_pct": 15,
+      "hardness_max": "310 BHN / 32 HRC",
+      "hardness_hrb_val": 105,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 42.0,
+      "cpt_c": 70.0,
+      "cct_c": 45.0,
+      "general_corrosion_score": 9.9,
+      "pitting_resistance_score": 9.9,
+      "chloride_suitability": "Exceptional in high-salinity seawater, brackish water, and sour gas (CPT 70\u00b0C, CCT 45\u00b0C)",
+      "scc_resistance": "Immune to chloride SCC under standard offshore service conditions",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 250,
+      "intermittent_service_temp_c": 300,
+      "scaling_temperature_c": 300
+    },
+    "manufacturing_properties": {
+      "formability_score": 5.5,
+      "deep_drawability_ldr": 1.6,
+      "erichsen_cupping_mm": 8.2,
+      "weldability_score": 8.2,
+      "machinability_score": 4.8,
+      "recommended_welding": "Weldable with matching super duplex AWS 2509 consumables. Strict heat input control required (0.2-1.5 kJ/mm)."
+    },
+    "commercial": {
+      "relative_cost_index": 8.8,
+      "cost_band": "High (Super Duplex)",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Seawater reverse osmosis (RO) desalination plants and high-pressure pumps",
+      "Offshore oil & gas topside piping and manifolds",
+      "Mining hydrometallurgical extraction systems",
+      "Petrochemical and fertilizer plants handling severe halides",
+      "Marine scrubbers and marine propulsion shafts"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Upper temperature strictly limited to 250\u00b0C to avoid intermetallic precipitation (sigma/chi phases)",
+      "Low elongation (15% min); not suitable for tight deep drawing"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S32750",
+      "EN 10088",
+      "EN 1.4410",
+      "NACE MR0175/ISO 15156"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J2507 - UNS S32750 - EN 1.4410 Super Duplex Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S32750 (Super Duplex 2507)",
+    "equivalent_bis": "02Cr25Ni7Mo4N (IS 6911)",
+    "equivalent_en": "EN 1.4410",
+    "equivalent_uns": "UNS S32750",
+    "equivalent_jis": "SUS 329J4L"
+  },
+  {
+    "grade_name": "J-32760",
+    "aliases": [
+      "UNS S32760",
+      "EN 1.4501",
+      "Super Duplex with W & Cu",
+      "Zeron 100"
+    ],
+    "family": "Super Duplex Stainless Steel",
+    "microstructure": "Austenitic-Ferritic (50/50 Duplex)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 30.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.0,
+      "P_max": 0.03,
+      "S_max": 0.01,
+      "Si_max": 1.0,
+      "Cr_min": 24.0,
+      "Cr_max": 26.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "Mo_min": 3.0,
+      "Mo_max": 4.0,
+      "Cu_min": 0.5,
+      "Cu_max": 1.0,
+      "W_min": 0.5,
+      "W_max": 1.0,
+      "N_min": 0.2,
+      "N_max": 0.3,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 550,
+      "tensile_strength_min_mpa": 750,
+      "elongation_min_pct": 25,
+      "hardness_max": "310 BHN / 32 HRC",
+      "hardness_hrb_val": 105,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 15.0,
+      "thermal_expansion_coeff_um_m_c": 13.0,
+      "electrical_resistivity_uohm_m": 0.8
+    },
+    "corrosion_properties": {
+      "pren": 42.5,
+      "cpt_c": 85.0,
+      "cct_c": 50.0,
+      "general_corrosion_score": 10.0,
+      "pitting_resistance_score": 10.0,
+      "chloride_suitability": "Highest localized corrosion resistance in hot seawater and aggressive acids (Tungsten + Cu synergy)",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -50,
+      "max_continuous_temp_c": 250,
+      "intermittent_service_temp_c": 300,
+      "scaling_temperature_c": 300
+    },
+    "manufacturing_properties": {
+      "formability_score": 6.0,
+      "deep_drawability_ldr": 1.65,
+      "erichsen_cupping_mm": 8.5,
+      "weldability_score": 8.3,
+      "machinability_score": 4.8,
+      "recommended_welding": "Weldable with matching super duplex W-bearing filler (AWS ER2594). Low heat input (0.5-1.5 kJ/mm)."
+    },
+    "commercial": {
+      "relative_cost_index": 9.1,
+      "cost_band": "High-End Super Duplex",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Seawater desalination plants, brine heaters, and subsea pipelines",
+      "Offshore oil & gas risers and manifold headers",
+      "Sour service wells conforming to NACE MR0175",
+      "Flue gas desulfurization (FGD) scrubbers in aggressive chloride environments",
+      "Mining extraction autoclave systems and acid leach piping"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Restricted to maximum service temperature of 250-300\u00b0C",
+      "High alloying cost; requires expert welding procedure specification"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S32760",
+      "EN 10088",
+      "EN 1.4501",
+      "NACE MR0175"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J32760 - UNS S32760 - EN 1.4501 Super Duplex Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S32760 (Super Duplex with W)",
+    "equivalent_bis": "02Cr25Ni7Mo3.5WCuN (IS 6911)",
+    "equivalent_en": "EN 1.4501",
+    "equivalent_uns": "UNS S32760",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-216L",
+    "aliases": [
+      "JSL 216L",
+      "Cr-Ni-Mo-Mn-N Austenitic",
+      "Cost-effective 316L Substitute"
+    ],
+    "family": "Austenitic Cr-Mn-Ni-Mo",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic (very low magnetic permeability even after cold work)",
+    "magnetic_permeability_relative": 1.01,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_min": 6.0,
+      "Mn_max": 8.0,
+      "P_max": 0.06,
+      "S_max": 0.015,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "Mo_min": 1.5,
+      "Mo_max": 2.0,
+      "Cu_min": 1.5,
+      "Cu_max": 2.0,
+      "N_min": 0.15,
+      "N_max": 0.25,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 310,
+      "tensile_strength_min_mpa": 520,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7900,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.0,
+      "electrical_resistivity_uohm_m": 0.75
+    },
+    "corrosion_properties": {
+      "pren": 25.02,
+      "cpt_c": 22.0,
+      "cct_c": -2.0,
+      "general_corrosion_score": 9.1,
+      "pitting_resistance_score": 8.8,
+      "chloride_suitability": "Superior to 316L in boiling acids (5% citric, 2% HCl, 65% HNO3) and equal in 3.5% NaCl (MARC 21.57 vs 21.08)",
+      "scc_resistance": "Good (Copper + Nitrogen enhances resistance to sulfuric and chloride attack)",
+      "sensitization_resistance": "Outstanding"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 850,
+      "scaling_temperature_c": 850
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.6,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.5,
+      "weldability_score": 9.2,
+      "machinability_score": 5.8,
+      "recommended_welding": "Weldable with conventional 316L electrodes. Good gas tungsten-arc (TIG) and gas metal-arc (MIG) response."
+    },
+    "commercial": {
+      "relative_cost_index": 6.8,
+      "cost_band": "Cost-Effective 316L Alternative",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Marine exteriors and coastal architectural trims",
+      "Chemical processing equipment and sulfuric acid vessels",
+      "Food and pharmaceutical processing equipment",
+      "Petroleum refining equipment and paper mills",
+      "High strength non-magnetic structural components"
+    ],
+    "limitations": [
+      "Requires higher shear & forming power due to 310 MPa yield strength (50% higher than 316L)",
+      "Drilling speeds must be lower compared to 316L for equivalent tool life"
+    ],
+    "standards": [
+      "JSL Proprietary Engineered Specification",
+      "Conforms to ASTM A240"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J216L Austenitic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 216L (Modified)",
+    "equivalent_bis": "03Cr17Ni7Mn7Mo2N (IS 6911)",
+    "equivalent_en": "EN 1.4404 equiv",
+    "equivalent_uns": "UNS S21600",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-204Cu",
+    "aliases": [
+      "JSL 204Cu",
+      "Copper-alloyed 204",
+      "Austenitic Cr-Mn-Cu"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed state (mildly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.1,
+      "Mn_min": 6.5,
+      "Mn_max": 9.0,
+      "P_max": 0.06,
+      "S_max": 0.01,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 17.5,
+      "Ni_min": 1.5,
+      "Ni_max": 3.5,
+      "Cu_min": 2.0,
+      "Cu_max": 4.0,
+      "N_min": 0.1,
+      "N_max": 0.25,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 310,
+      "tensile_strength_min_mpa": 620,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7850,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 17.0,
+      "electrical_resistivity_uohm_m": 0.75
+    },
+    "corrosion_properties": {
+      "pren": 18.5,
+      "cpt_c": 2.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.6,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Similar to 304 in mild food and atmospheric media; leaching values of Cr & Ni <0.1 ppm in food simulants",
+      "scc_resistance": "Superior to 201/304 due to 2-4% Copper addition",
+      "sensitization_resistance": "Immune to intergranular corrosion after proper heat treatment (ASTM A262 Practice E not cracked)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 700,
+      "intermittent_service_temp_c": 750,
+      "scaling_temperature_c": 750
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.5,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.8,
+      "weldability_score": 9.0,
+      "machinability_score": 6.8,
+      "recommended_welding": "Good weldability. Consumables: AWS ER308 / ER308L."
+    },
+    "commercial": {
+      "relative_cost_index": 4.8,
+      "cost_band": "Cost-Effective 304 Alternative",
+      "market_availability": "Universal (Coils, Plates, Sheets)"
+    },
+    "typical_applications": [
+      "Deep drawn kitchenware, cookware, utensils, and flasks",
+      "Domestic and commercial refrigerator outer body panels",
+      "Washing machine outer bodies, toasters, and baking ovens",
+      "Architectural handrails for staircase, escalators, door/window frames",
+      "Automotive hose clamps, safety belt anchors, and bus frames"
+    ],
+    "limitations": [
+      "Not suitable for severe marine immersion or high acid concentrations",
+      "Slightly higher work hardening than high-nickel 305"
+    ],
+    "standards": [
+      "JIS G4305 equivalent",
+      "JSL Product Standard Range"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J204 Cu Austenitic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 204Cu",
+    "equivalent_bis": "N2 (IS 6911)",
+    "equivalent_en": "EN 1.4597 equiv",
+    "equivalent_uns": "UNS S20400",
+    "equivalent_jis": "SUS 204Cu"
+  },
+  {
+    "grade_name": "J-201",
+    "aliases": [
+      "AISI 201",
+      "UNS S20100",
+      "EN 1.4372",
+      "SUS 201"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed condition (magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.15,
+      "Mn_min": 5.5,
+      "Mn_max": 7.5,
+      "P_max": 0.06,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 3.5,
+      "Ni_max": 5.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.25,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 260,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7860,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 17.5,
+      "cpt_c": -3.0,
+      "cct_c": -8.0,
+      "general_corrosion_score": 7.0,
+      "pitting_resistance_score": 6.3,
+      "chloride_suitability": "Mild atmospheric and indoor environments; comparable to 301",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.85,
+      "erichsen_cupping_mm": 11.5,
+      "weldability_score": 8.5,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308 / ER308L filler wire."
+    },
+    "commercial": {
+      "relative_cost_index": 4.5,
+      "cost_band": "Low Cost",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Railway cars and trailer siding/roofing",
+      "Structural members and brackets",
+      "Hose clamps, straps, and banding",
+      "Decorative architectural trim (indoor)",
+      "General fabricated consumer hardware"
+    ],
+    "limitations": [
+      "Prone to staining in outdoor coastal or industrial atmospheres",
+      "Work hardens rapidly during forming"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J201 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 201",
+    "equivalent_bis": "201 (IS 6911)",
+    "equivalent_en": "EN 1.4372",
+    "equivalent_uns": "UNS S20100",
+    "equivalent_jis": "SUS 201"
+  },
+  {
+    "grade_name": "J-202",
+    "aliases": [
+      "AISI 202",
+      "UNS S20200",
+      "EN 1.4373",
+      "SUS 202"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed condition",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.15,
+      "Mn_min": 7.5,
+      "Mn_max": 10.0,
+      "P_max": 0.06,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 17.0,
+      "Cr_max": 19.0,
+      "Ni_min": 4.0,
+      "Ni_max": 6.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.25,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 260,
+      "tensile_strength_min_mpa": 620,
+      "elongation_min_pct": 40,
+      "hardness_max": "241 BHN / 98 HRB",
+      "hardness_hrb_val": 98,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7860,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 18.0,
+      "cpt_c": 0.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.3,
+      "pitting_resistance_score": 6.5,
+      "chloride_suitability": "Moderate; comparable to 304 in mildly corrosive indoor/kitchen media",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.2,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 11.8,
+      "weldability_score": 8.6,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308 / ER308L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 5.0,
+      "cost_band": "Cost-Effective",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Cookware and kitchen sinks",
+      "Refrigerator trays and wire mesh",
+      "Hose clamps, frames, and industrial strapping",
+      "Railway rolling stock interior components",
+      "Furniture, handrails, and indoor bins"
+    ],
+    "limitations": [
+      "Not recommended for coastal marine exteriors (susceptible to tea-staining)",
+      "Higher work hardening rate than 304"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J202 Austenitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 202",
+    "equivalent_bis": "202 (IS 6911)",
+    "equivalent_en": "EN 1.4373",
+    "equivalent_uns": "UNS S20200",
+    "equivalent_jis": "SUS 202"
+  },
+  {
+    "grade_name": "JSL AUS",
+    "aliases": [
+      "J1",
+      "JSL AUS (J1)",
+      "Austenitic Cr-Mn-Ni-Cu"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed condition (mildly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_min": 6.0,
+      "Mn_max": 8.0,
+      "P_max": 0.07,
+      "S_max": 0.01,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 4.0,
+      "Ni_max": 6.0,
+      "Cu_min": 1.5,
+      "Cu_max": 2.0,
+      "N_max": 0.1,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7860,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 17.5,
+      "cpt_c": 0.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.4,
+      "pitting_resistance_score": 6.6,
+      "chloride_suitability": "Comparable to 304 in normal cooking and domestic washing; corrosion resistance superior to AISI 430",
+      "scc_resistance": "Good (Copper addition reduces stress corrosion cracking propensity)",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.2,
+      "deep_drawability_ldr": 2.05,
+      "erichsen_cupping_mm": 13.0,
+      "weldability_score": 9.0,
+      "machinability_score": 6.6,
+      "recommended_welding": "Easily weldable. Same techniques as 300 series using ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 5.1,
+      "cost_band": "Cost-Effective",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Deep-drawing utensils and cookware",
+      "Milk cans, water filters, and domestic water tanks",
+      "Automotive trim, wheel caps, wiper arms, and auto accessories",
+      "Ordnance components and food industry vessels"
+    ],
+    "limitations": [
+      "Not suitable for marine or heavily polluted chemical atmospheres",
+      "Lower pitting potential than Mo-bearing grades"
+    ],
+    "standards": [
+      "JSL Proprietary Grade",
+      "BIS Designation N3"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: JSL AUS Austenitic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 200 Series J1",
+    "equivalent_bis": "N3 (IS 6911)",
+    "equivalent_en": "EN 1.4372 mod",
+    "equivalent_uns": "UNS S20100 equiv",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-4",
+    "aliases": [
+      "JSL J4",
+      "Austenitic Cr-Mn High Strength"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed condition (lightly magnetic after cold work)",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.1,
+      "Mn_min": 8.5,
+      "Mn_max": 10.0,
+      "P_max": 0.08,
+      "S_max": 0.01,
+      "Si_max": 0.75,
+      "Cr_min": 15.0,
+      "Cr_max": 16.0,
+      "Ni_min": 1.0,
+      "Ni_max": 2.0,
+      "Cu_min": 1.5,
+      "Cu_max": 2.0,
+      "N_max": 0.2,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 325,
+      "tensile_strength_min_mpa": 650,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7850,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 16.5,
+      "cpt_c": -5.0,
+      "cct_c": -10.0,
+      "general_corrosion_score": 6.8,
+      "pitting_resistance_score": 6.0,
+      "chloride_suitability": "Mild indoor and domestic applications",
+      "scc_resistance": "Moderate (enhanced by copper)",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 700,
+      "intermittent_service_temp_c": 750,
+      "scaling_temperature_c": 750
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.7,
+      "deep_drawability_ldr": 1.7,
+      "erichsen_cupping_mm": 11.5,
+      "weldability_score": 8.5,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 4.2,
+      "cost_band": "Economical / Budget",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Deep drawn kitchen equipment, bowls, and serving utensils",
+      "Furniture, dustbins, and bins",
+      "Coal bucket and wear plate liners/hoppers",
+      "Window channel spacers",
+      "Structural consumer fabrications"
+    ],
+    "limitations": [
+      "Low chromium (15-16%) means lower atmospheric pitting resistance outdoors",
+      "LDR of 1.7 is lower than 304 (2.1), requiring careful tooling for severe drawing"
+    ],
+    "standards": [
+      "JSL Proprietary Grade",
+      "BIS Designation N1"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J4 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 200 Series J4",
+    "equivalent_bis": "N1 (IS 6911)",
+    "equivalent_en": "EN 1.4372 mod",
+    "equivalent_uns": "UNS S20100 equiv",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J4-16Cr",
+    "aliases": [
+      "JSL J4-16Cr",
+      "Higher Chromium J4"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.1,
+      "Mn_min": 9.0,
+      "Mn_max": 10.5,
+      "P_max": 0.08,
+      "S_max": 0.01,
+      "Si_max": 0.75,
+      "Cr_min": 16.0,
+      "Cr_max": 17.0,
+      "Ni_min": 1.0,
+      "Ni_max": 2.0,
+      "Cu_min": 1.5,
+      "Cu_max": 2.0,
+      "N_min": 0.1,
+      "N_max": 0.25,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 325,
+      "tensile_strength_min_mpa": 650,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7850,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 17.8,
+      "cpt_c": -2.0,
+      "cct_c": -7.0,
+      "general_corrosion_score": 7.2,
+      "pitting_resistance_score": 6.4,
+      "chloride_suitability": "Higher corrosion resistance than J4; comparable to 304 in ASTM A262 Practice E",
+      "scc_resistance": "Moderate (Copper added)",
+      "sensitization_resistance": "Step structure in ASTM A262 Practice A"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 700,
+      "intermittent_service_temp_c": 750,
+      "scaling_temperature_c": 750
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.7,
+      "deep_drawability_ldr": 1.7,
+      "erichsen_cupping_mm": 11.5,
+      "weldability_score": 8.6,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 4.4,
+      "cost_band": "Economical / Budget",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Wet sliding mixing tanks",
+      "Cookware and serving bowls",
+      "Structural frames for trailers, buses, and rail cars",
+      "Deep drawn kitchen equipment",
+      "Window channel spacers and furniture"
+    ],
+    "limitations": [
+      "Lower drawability than 304 (LDR 1.7 vs 2.1)",
+      "Not intended for severe chemical or marine service"
+    ],
+    "standards": [
+      "JSL Proprietary Grade"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J4-16Cr Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 200 Series J4 (16Cr)",
+    "equivalent_bis": "N1 (16Cr) (IS 6911)",
+    "equivalent_en": "EN 1.4372 mod",
+    "equivalent_uns": "UNS S20100 equiv",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "JSL U DD",
+    "aliases": [
+      "JSL Ultra Deep Draw",
+      "Cr-Mn Ultra Deep Drawing Grade"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.15,
+      "Mn_min": 9.75,
+      "Mn_max": 11.0,
+      "P_max": 0.1,
+      "S_max": 0.015,
+      "Si_max": 0.75,
+      "Cr_min": 14.75,
+      "Cr_max": 16.25,
+      "Ni_min": 0.5,
+      "Ni_max": 0.8,
+      "Cu_min": 1.75,
+      "Cu_max": 2.5,
+      "N_max": 0.2,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 350,
+      "tensile_strength_min_mpa": 700,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7850,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.5,
+      "electrical_resistivity_uohm_m": 0.73
+    },
+    "corrosion_properties": {
+      "pren": 16.0,
+      "cpt_c": -5.0,
+      "cct_c": -10.0,
+      "general_corrosion_score": 6.5,
+      "pitting_resistance_score": 5.8,
+      "chloride_suitability": "Mild indoor and domestic chemical environments",
+      "scc_resistance": "Moderate (Copper reduces work hardening and enhances ductility)",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -20,
+      "max_continuous_temp_c": 650,
+      "intermittent_service_temp_c": 700,
+      "scaling_temperature_c": 700
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.5,
+      "deep_drawability_ldr": 2.15,
+      "erichsen_cupping_mm": 13.5,
+      "weldability_score": 8.5,
+      "machinability_score": 6.4,
+      "recommended_welding": "Weldable with ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 3.9,
+      "cost_band": "Lowest Cost Austenitic",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Deep drawn utensils up to 10 inches deep",
+      "Medium and deep drawn spun utensils",
+      "Consumer cookware vessels and bowls",
+      "Structural consumer stampings"
+    ],
+    "limitations": [
+      "Low nickel (0.5-0.8%) and moderate chromium (15%) restrict use to non-saline indoor environments",
+      "Higher yield strength requires adequate press tonnage"
+    ],
+    "standards": [
+      "JSL Proprietary Grade",
+      "BIS Designation N1"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: JSL U DD Austenitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 200 Series Ultra Deep Draw",
+    "equivalent_bis": "N1 (IS 6911)",
+    "equivalent_en": "EN 1.4372 mod",
+    "equivalent_uns": "UNS S20100 equiv",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-409L",
+    "aliases": [
+      "UNS S40910",
+      "AISI 409",
+      "EN 1.4512",
+      "Stabilized Ferritic 409L"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic (Magnetic in all conditions)",
+    "magnetic_permeability_relative": 65.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.02,
+      "Si_max": 1.0,
+      "Cr_min": 10.5,
+      "Cr_max": 11.7,
+      "Ni_max": 0.5,
+      "Ti_min": 0.18,
+      "Ti_max": 0.5,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 170,
+      "tensile_strength_min_mpa": 380,
+      "elongation_min_pct": 20,
+      "hardness_max": "88 HRB",
+      "hardness_hrb_val": 88,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 25.4,
+      "thermal_expansion_coeff_um_m_c": 11.2,
+      "electrical_resistivity_uohm_m": 0.59
+    },
+    "corrosion_properties": {
+      "pren": 11.0,
+      "cpt_c": -15.0,
+      "cct_c": -20.0,
+      "general_corrosion_score": 5.5,
+      "pitting_resistance_score": 4.5,
+      "chloride_suitability": "Atmospheric corrosion resistance is 250x that of mild steel; automotive exhaust condensates",
+      "scc_resistance": "Immune to chloride SCC (Ferritic structure resists SCC)",
+      "sensitization_resistance": "High (Titanium stabilization prevents intergranular corrosion)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.8,
+      "deep_drawability_ldr": 1.8,
+      "erichsen_cupping_mm": 10.0,
+      "weldability_score": 8.5,
+      "machinability_score": 7.2,
+      "recommended_welding": "Easily welded without filler in automotive tubing. When filler required, AWS ER309 / 409Cb is recommended."
+    },
+    "commercial": {
+      "relative_cost_index": 3.5,
+      "cost_band": "Economical / Budget",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Automotive exhaust systems: Manifolds, front pipes, catalytic converter shells, mufflers",
+      "Brick kiln atmospheres and combustion ducting",
+      "Silencers and agricultural equipment",
+      "Culverts and conveyor frames requiring low lifecycle maintenance"
+    ],
+    "limitations": [
+      "Forms a light surface rust film/discoloration in outdoor environments; not for decorative unpainted trim",
+      "Low impact toughness at sub-zero temperatures (DBTT ~0\u00b0C)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S40910",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J409L Stabilized Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 409 / 409L",
+    "equivalent_bis": "02Cr12Ti (IS 6911)",
+    "equivalent_en": "EN 1.4512",
+    "equivalent_uns": "UNS S40910",
+    "equivalent_jis": "SUH 409L"
+  },
+  {
+    "grade_name": "J-409Ni",
+    "aliases": [
+      "UNS S40975",
+      "Stabilized Ferritic with Nickel"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 65.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 10.5,
+      "Cr_max": 11.7,
+      "Ni_min": 0.5,
+      "Ni_max": 1.0,
+      "Ti_min": 0.18,
+      "Ti_max": 0.75,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 275,
+      "tensile_strength_min_mpa": 415,
+      "elongation_min_pct": 20,
+      "hardness_max": "92 HRB",
+      "hardness_hrb_val": 92,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 25.4,
+      "thermal_expansion_coeff_um_m_c": 11.2,
+      "electrical_resistivity_uohm_m": 0.59
+    },
+    "corrosion_properties": {
+      "pren": 11.2,
+      "cpt_c": -12.0,
+      "cct_c": -18.0,
+      "general_corrosion_score": 5.8,
+      "pitting_resistance_score": 4.8,
+      "chloride_suitability": "250x greater corrosion resistance than mild steel; excellent abrasion-corrosion synergy",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "High (Ti-stabilized)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -20,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.2,
+      "deep_drawability_ldr": 1.75,
+      "erichsen_cupping_mm": 9.5,
+      "weldability_score": 8.6,
+      "machinability_score": 7.0,
+      "recommended_welding": "Weldable by conventional methods. AWS ER309 recommended."
+    },
+    "commercial": {
+      "relative_cost_index": 3.8,
+      "cost_band": "Economical / Budget",
+      "market_availability": "Moderate to High"
+    },
+    "typical_applications": [
+      "Bulk wet materials handling, coal chutes, and mining screens",
+      "Vehicle frame and chassis (low weight design options)",
+      "Rail car hoppers, bunkers, troughs, and dump truck liners",
+      "Chimneys, industrial ducting, and electrical enclosures",
+      "Walkways, industrial stairs, and structural railings"
+    ],
+    "limitations": [
+      "Not decorative without paint/coating",
+      "Forming should be limited to moderate roll forming and blanking"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S40975"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J409Ni Stabilized Ferritic Stainless Steel With Nickel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 409Ni",
+    "equivalent_bis": "02Cr12NiTi (IS 6911)",
+    "equivalent_en": "EN 1.4003 equiv",
+    "equivalent_uns": "UNS S40975",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "EN 1.4003",
+    "aliases": [
+      "UNS S40977",
+      "UNS S41003",
+      "3CR12 Type",
+      "Utility Ferritic Stainless Steel"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Utility Ferritic / Dual Phase",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 65.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.5,
+      "P_max": 0.04,
+      "S_max": 0.015,
+      "Si_max": 1.0,
+      "Cr_min": 10.5,
+      "Cr_max": 12.5,
+      "Ni_min": 0.3,
+      "Ni_max": 1.0,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 280,
+      "tensile_strength_min_mpa": 450,
+      "elongation_min_pct": 20,
+      "hardness_max": "88 HRB / 180 HB",
+      "hardness_hrb_val": 88,
+      "modulus_of_elasticity_gpa": 220
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.0,
+      "thermal_expansion_coeff_um_m_c": 10.4,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 11.5,
+      "cpt_c": -10.0,
+      "cct_c": -15.0,
+      "general_corrosion_score": 6.0,
+      "pitting_resistance_score": 5.0,
+      "chloride_suitability": "Corrosion rate as low as 0.0015-0.003 mm/yr in moderate marine environments (250x mild steel life)",
+      "scc_resistance": "Immune to chloride stress corrosion cracking",
+      "sensitization_resistance": "High (fine-grained microstructure prevents HAZ grain growth)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -20,
+      "max_continuous_temp_c": 650,
+      "intermittent_service_temp_c": 740,
+      "scaling_temperature_c": 740
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.5,
+      "deep_drawability_ldr": 1.8,
+      "erichsen_cupping_mm": 9.8,
+      "weldability_score": 9.0,
+      "machinability_score": 7.0,
+      "recommended_welding": "Pre-qualified by AS 1554.6. Filler wire grade 309, 309L, 309Mo, or 316L. Weldable up to 30mm thickness."
+    },
+    "commercial": {
+      "relative_cost_index": 3.9,
+      "cost_band": "Economical Structural Steel Alternative",
+      "market_availability": "Universal (Coils, Sheets, Strips, Plates up to 60mm)"
+    },
+    "typical_applications": [
+      "Bulk wet materials handling and mining chutes",
+      "Rail freight wagons and coal transport hoppers",
+      "Bus and truck frames/chassis and sweeper vehicles",
+      "Industrial walkway gratings, stairs, and structural columns",
+      "Chimneys, ducting, tanks, and wastewater enclosures"
+    ],
+    "limitations": [
+      "Tends to form a superficial cosmetic brown oxide in humid/aggressive air (paint needed for aesthetic architecture)",
+      "If under continuous stress, maximum temperature should be limited to 450\u00b0C"
+    ],
+    "standards": [
+      "EN 10088-2",
+      "EN 1.4003",
+      "ASTM A240",
+      "UNS S40977",
+      "UNS S41003"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: EN 1.4003 Ferritic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S40977 / S41003 (3CR12)",
+    "equivalent_bis": "03Cr12Ni (IS 6911)",
+    "equivalent_en": "EN 1.4003",
+    "equivalent_uns": "UNS S40977",
+    "equivalent_jis": "N/A"
+  },
+  {
+    "grade_name": "J-430",
+    "aliases": [
+      "AISI 430",
+      "UNS S43000",
+      "EN 1.4016",
+      "SUS 430"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic (Magnetic in all conditions)",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.12,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_max": 0.75,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "N_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 450,
+      "elongation_min_pct": 22,
+      "hardness_max": "89 HRB",
+      "hardness_hrb_val": 89,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.9,
+      "thermal_expansion_coeff_um_m_c": 10.3,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 16.5,
+      "cpt_c": 5.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.0,
+      "pitting_resistance_score": 6.2,
+      "chloride_suitability": "Good in indoor and mildly corrosive atmospheres, nitric acid, organic food acids",
+      "scc_resistance": "Outstanding (Ferritic structure resists chloride SCC where 304 might fail)",
+      "sensitization_resistance": "Moderate (un-stabilized; HAZ can suffer loss of ductility if not annealed)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 740,
+      "intermittent_service_temp_c": 875,
+      "scaling_temperature_c": 875
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 10.5,
+      "weldability_score": 7.2,
+      "machinability_score": 7.5,
+      "recommended_welding": "Weldable with 308L or 309L wire. Annealing restores HAZ ductility if needed."
+    },
+    "commercial": {
+      "relative_cost_index": 4.6,
+      "cost_band": "Cost-Effective (Nickel-Free)",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Dishwashers, washing machines, refrigerators, sinks",
+      "Architectural trims and decorative panels",
+      "Coin minting (J430Mint)",
+      "Automotive trims and fasteners",
+      "Range hoods and domestic cooker linings"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Lower pitting resistance in salt spray compared to austenitic 304 or stabilized 436L/444",
+      "Susceptible to 475\u00b0C embrittlement; DBTT occurs near room temperature in heavy sections"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S43000",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J430 Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 430",
+    "equivalent_bis": "05Cr17 (IS 6911)",
+    "equivalent_en": "EN 1.4016",
+    "equivalent_uns": "UNS S43000",
+    "equivalent_jis": "SUS 430"
+  },
+  {
+    "grade_name": "J-436L",
+    "aliases": [
+      "UNS S43600",
+      "JIS SUS 436L",
+      "Molybdenum-Stabilized Ferritic 436L"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.025,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 19.0,
+      "Mo_min": 0.75,
+      "Mo_max": 1.5,
+      "Ti_min": 0.15,
+      "Ti_max": 0.75,
+      "Nb_min": 0.2,
+      "Nb_max": 0.8,
+      "N_max": 0.025,
+      "Ni_max": 0.5,
+      "Cu_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 240,
+      "tensile_strength_min_mpa": 450,
+      "elongation_min_pct": 22,
+      "hardness_max": "89 HRB",
+      "hardness_hrb_val": 89,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7800,
+      "thermal_conductivity_w_mk": 24.2,
+      "thermal_expansion_coeff_um_m_c": 11.5,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 19.5,
+      "cpt_c": 22.0,
+      "cct_c": 2.0,
+      "general_corrosion_score": 8.4,
+      "pitting_resistance_score": 8.6,
+      "chloride_suitability": "Critical pitting potential 499 mV (superior to 304's 403 mV in 1000ppm chloride)",
+      "scc_resistance": "Outstanding (Ferritic structure resists chloride SCC)",
+      "sensitization_resistance": "Outstanding (Dual stabilized with Nb and Ti)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 900,
+      "scaling_temperature_c": 900
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.4,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 11.2,
+      "weldability_score": 8.8,
+      "machinability_score": 7.0,
+      "recommended_welding": "High performance drawability in weld zone. Weldable with AWS ER309L or ER430Nb."
+    },
+    "commercial": {
+      "relative_cost_index": 5.8,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Visible automotive exhaust: Central & rear mufflers, tailpipes",
+      "Solar water heater tanks and collectors",
+      "Outdoor communication shelters",
+      "Architectural trims and outdoor panels"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Lower toughness at cryogenic temperatures"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S43600",
+      "JIS G4305 SUS 436L"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J436L Stabilized Ferritic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 436L",
+    "equivalent_bis": "02Cr18Mo1TiNb (IS 6911)",
+    "equivalent_en": "EN 1.4526",
+    "equivalent_uns": "UNS S43600",
+    "equivalent_jis": "SUS 436L"
+  },
+  {
+    "grade_name": "J-439",
+    "aliases": [
+      "UNS S43932",
+      "ASTM 439",
+      "Titanium-Stabilized 18% Cr Ferritic"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 17.0,
+      "Cr_max": 19.0,
+      "Ni_max": 0.5,
+      "Ti_min": 0.25,
+      "Ti_max": 0.75,
+      "Al_max": 0.15,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 415,
+      "elongation_min_pct": 22,
+      "hardness_max": "89 HRB",
+      "hardness_hrb_val": 89,
+      "modulus_of_elasticity_gpa": 220
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.4,
+      "thermal_expansion_coeff_um_m_c": 10.4,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 18.0,
+      "cpt_c": 18.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 7.8,
+      "pitting_resistance_score": 7.5,
+      "chloride_suitability": "Immune to chloride SCC in hot water where 304 fails prematurely; pitting potential 370 mV",
+      "scc_resistance": "Outstanding (210+ hrs in boiling 42% MgCl2 without cracking)",
+      "sensitization_resistance": "Outstanding (Ti-stabilization prevents intergranular attack in as-welded state)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 950,
+      "scaling_temperature_c": 950
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.3,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 11.2,
+      "weldability_score": 8.8,
+      "machinability_score": 7.2,
+      "recommended_welding": "Excellent ductility and IGC resistance in as-welded condition."
+    },
+    "commercial": {
+      "relative_cost_index": 5.1,
+      "cost_band": "Cost-Effective",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Automotive exhaust: Manifolds, central mufflers, catalytic converters up to 950\u00b0C",
+      "Direct fired hot water tanks and heat exchangers",
+      "Electrical appliance: Washing machine drums",
+      "Sugar industry juice heaters and evaporator tubes"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Not suitable for reducing inorganic acids (e.g. HCl, H2SO4)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S43932"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J439 Stabilized Ferritic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 439",
+    "equivalent_bis": "02Cr18Ti (IS 6911)",
+    "equivalent_en": "EN 1.4510",
+    "equivalent_uns": "UNS S43932",
+    "equivalent_jis": "SUS 430LX"
+  },
+  {
+    "grade_name": "J-441",
+    "aliases": [
+      "UNS S43940",
+      "EN 1.4509",
+      "Dual-Stabilized Ferritic 441"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.015,
+      "Si_max": 1.0,
+      "Cr_min": 17.5,
+      "Cr_max": 18.5,
+      "Ti_min": 0.1,
+      "Ti_max": 0.6,
+      "Nb_min": 0.3,
+      "Nb_max": 0.8,
+      "N_max": 0.03,
+      "Ni_max": 0.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 250,
+      "tensile_strength_min_mpa": 430,
+      "elongation_min_pct": 18,
+      "hardness_max": "88 HRB",
+      "hardness_hrb_val": 88,
+      "modulus_of_elasticity_gpa": 220
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 26.0,
+      "thermal_expansion_coeff_um_m_c": 10.0,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 18.2,
+      "cpt_c": 18.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 7.9,
+      "pitting_resistance_score": 7.5,
+      "chloride_suitability": "500 hrs salt spray (ASTM B117) with zero surface attack (equal to 304)",
+      "scc_resistance": "Outstanding (225+ hrs in boiling 42% MgCl2, 500+ hrs in 26% NaCl without cracking)",
+      "sensitization_resistance": "Outstanding (Dual stabilization Nb + Ti prevents chromium carbide precipitation)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 920,
+      "intermittent_service_temp_c": 980,
+      "scaling_temperature_c": 980
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 10.8,
+      "weldability_score": 9.0,
+      "machinability_score": 7.2,
+      "recommended_welding": "Excellent weldability. Retains fine equiaxed grain structure and strength in HAZ."
+    },
+    "commercial": {
+      "relative_cost_index": 5.3,
+      "cost_band": "Cost-Effective",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Automotive exhaust manifolds, front pipes, and catalytic converters up to 980\u00b0C",
+      "Solar hot water tanks, solar collectors, and solar panel frames",
+      "Heat exchanger tubes and boiler flues",
+      "Elevator panels and catering counters"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Elongation (18%) is lower than austenitics (40%)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S43940",
+      "EN 10088-2",
+      "EN 1.4509"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J441 Stabilized Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 441",
+    "equivalent_bis": "02Cr18TiNb (IS 6911)",
+    "equivalent_en": "EN 1.4509",
+    "equivalent_uns": "UNS S43940",
+    "equivalent_jis": "SUS 430J1L"
+  },
+  {
+    "grade_name": "J-444",
+    "aliases": [
+      "UNS S44400",
+      "EN 1.4521",
+      "Dual-Stabilized Mo-Ferritic 444"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 55.0,
+    "composition": {
+      "C_max": 0.025,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 17.5,
+      "Cr_max": 19.5,
+      "Mo_min": 1.75,
+      "Mo_max": 2.5,
+      "Ti_min": 0.2,
+      "Ti_max": 0.8,
+      "Nb_min": 0.2,
+      "Nb_max": 0.8,
+      "N_max": 0.035,
+      "Ni_max": 1.0,
+      "Cu_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 275,
+      "tensile_strength_min_mpa": 415,
+      "elongation_min_pct": 20,
+      "hardness_max": "96 HRB",
+      "hardness_hrb_val": 96,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 26.8,
+      "thermal_expansion_coeff_um_m_c": 10.8,
+      "electrical_resistivity_uohm_m": 0.57
+    },
+    "corrosion_properties": {
+      "pren": 24.5,
+      "cpt_c": 28.0,
+      "cct_c": 5.0,
+      "general_corrosion_score": 9.2,
+      "pitting_resistance_score": 9.0,
+      "chloride_suitability": "Exceptional pitting & crevice resistance; superior to 316 in chloride SCC (500+ hrs boiling 42% MgCl2 with NO failure)",
+      "scc_resistance": "Immune (Resistant 500 hrs in boiling 42% MgCl2 and 26% NaCl)",
+      "sensitization_resistance": "Outstanding (Dual stabilized with Ti and Nb)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -20,
+      "max_continuous_temp_c": 700,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.85,
+      "erichsen_cupping_mm": 10.5,
+      "weldability_score": 8.8,
+      "machinability_score": 7.2,
+      "recommended_welding": "Weldable with AWS ER316L or matching 444 filler. Dual stabilization prevents martensite formation in HAZ."
+    },
+    "commercial": {
+      "relative_cost_index": 6.9,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate to High"
+    },
+    "typical_applications": [
+      "Hot-water tanks, boilers, and solar water storage",
+      "Heat exchanger tubing handling chloride waters",
+      "Brewery and wine-making equipment",
+      "Food processing equipment dealing with hot organic acids and salt",
+      "Alternative to 316L for hot water SCC environments"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Lower impact toughness at cryogenic temperatures (-20\u00b0C and below)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S44400",
+      "EN 10088-2",
+      "EN 1.4521"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J444 Dual-Stabilized Ferritic Stainless Steel, pp. 1-3",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 444",
+    "equivalent_bis": "02Cr18Mo2TiNb (IS 6911)",
+    "equivalent_en": "EN 1.4521",
+    "equivalent_uns": "UNS S44400",
+    "equivalent_jis": "SUS 444"
+  },
+  {
+    "grade_name": "J-445",
+    "aliases": [
+      "UNS S44500",
+      "JIS SUS 445J1",
+      "High-Cr Ferritic 445"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.02,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.012,
+      "Si_max": 1.0,
+      "Cr_min": 19.0,
+      "Cr_max": 21.0,
+      "Ni_max": 0.6,
+      "Cu_min": 0.3,
+      "Cu_max": 0.6,
+      "Nb_min": 0.3,
+      "Nb_max": 0.8,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 427,
+      "elongation_min_pct": 22,
+      "hardness_max": "83 HRB",
+      "hardness_hrb_val": 83,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.8,
+      "thermal_expansion_coeff_um_m_c": 11.8,
+      "electrical_resistivity_uohm_m": 0.7
+    },
+    "corrosion_properties": {
+      "pren": 19.5,
+      "cpt_c": 20.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 8.3,
+      "pitting_resistance_score": 8.0,
+      "chloride_suitability": "Pitting potential 330 mV vs SCE in 3.5% NaCl; equivalent corrosion resistance to SUS304 (500 hrs salt spray no rust)",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "Outstanding (Nb-stabilized)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 800,
+      "intermittent_service_temp_c": 850,
+      "scaling_temperature_c": 850
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.2,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 11.0,
+      "weldability_score": 8.8,
+      "machinability_score": 7.2,
+      "recommended_welding": "Weldable with ER309L or ER430Nb."
+    },
+    "commercial": {
+      "relative_cost_index": 5.4,
+      "cost_band": "Cost-Effective 304 Alternative",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "White goods: Dishwashers, washing machine tubs, microwave ovens, rice cookers",
+      "Hot water tanks and tubing, heat exchangers, and solar collector panels",
+      "Food handling equipment, sinks, and architectural panels",
+      "Automotive exhaust catalytic converters"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Cannot be strengthened by heat treatment"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S44500",
+      "JIS G4305"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J445 Stabilized Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 445",
+    "equivalent_bis": "02Cr20CuNb (IS 6911)",
+    "equivalent_en": "EN 1.4610 equiv",
+    "equivalent_uns": "UNS S44500",
+    "equivalent_jis": "SUS 445J1"
+  },
+  {
+    "grade_name": "J-410",
+    "aliases": [
+      "AISI 410",
+      "UNS S41000",
+      "EN 1.4006",
+      "SUS 410"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic (Hardenable)",
+    "magnetic_behavior": "Ferromagnetic (Strongly magnetic)",
+    "magnetic_permeability_relative": 75.0,
+    "composition": {
+      "C_min": 0.08,
+      "C_max": 0.15,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 11.5,
+      "Cr_max": 13.5,
+      "Ni_max": 0.75,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "N_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 450,
+      "elongation_min_pct": 20,
+      "hardness_max": "96 HRB (Annealed) / up to 45 HRC (Hardened)",
+      "hardness_hrb_val": 96,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 24.9,
+      "thermal_expansion_coeff_um_m_c": 11.0,
+      "electrical_resistivity_uohm_m": 0.57
+    },
+    "corrosion_properties": {
+      "pren": 12.0,
+      "cpt_c": -10.0,
+      "cct_c": -15.0,
+      "general_corrosion_score": 5.8,
+      "pitting_resistance_score": 4.8,
+      "chloride_suitability": "Moderate in mild atmospheres, steam, and fresh water (surface must be passivated)",
+      "scc_resistance": "Moderate (tempered condition)",
+      "sensitization_resistance": "Requires hardening and tempering for best corrosion resistance"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 650,
+      "intermittent_service_temp_c": 700,
+      "scaling_temperature_c": 650
+    },
+    "manufacturing_properties": {
+      "formability_score": 6.5,
+      "deep_drawability_ldr": 1.65,
+      "erichsen_cupping_mm": 9.0,
+      "weldability_score": 6.0,
+      "machinability_score": 8.0,
+      "recommended_welding": "Requires preheating to 200-260\u00b0C and post-weld annealing/tempering to prevent cracking."
+    },
+    "commercial": {
+      "relative_cost_index": 3.9,
+      "cost_band": "Economical / Budget",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Cutlery, knives, and kitchen shears",
+      "Pump shafts, valve trim, bushings, and seats",
+      "High strength industrial fasteners and turbine blades",
+      "Petroleum fractionating towers and hardware up to 650\u00b0C"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Poor weldability compared to austenitic/ferritic grades (air hardens; requires pre/post-weld heat treatment)",
+      "Limited corrosion resistance in marine and acidic environments"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S41000",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J410 Martensitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 410",
+    "equivalent_bis": "12Cr13 / 15Cr13 (IS 6911)",
+    "equivalent_en": "EN 1.4006",
+    "equivalent_uns": "UNS S41000",
+    "equivalent_jis": "SUS 410"
+  },
+  {
+    "grade_name": "J-415",
+    "aliases": [
+      "UNS S41500",
+      "EN 1.4313",
+      "High Toughness Martensitic"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic (Ni-Mo alloyed)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 70.0,
+    "composition": {
+      "C_max": 0.05,
+      "Mn_min": 0.5,
+      "Mn_max": 1.0,
+      "P_max": 0.03,
+      "S_max": 0.03,
+      "Si_max": 0.6,
+      "Cr_min": 11.5,
+      "Cr_max": 14.0,
+      "Ni_min": 3.5,
+      "Ni_max": 5.5,
+      "Mo_min": 0.5,
+      "Mo_max": 1.0,
+      "Cu_max": 0.0,
+      "N_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 620,
+      "tensile_strength_min_mpa": 795,
+      "elongation_min_pct": 15,
+      "hardness_max": "302 BHN / 32 HRC",
+      "hardness_hrb_val": 105,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 25.0,
+      "thermal_expansion_coeff_um_m_c": 10.5,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 15.0,
+      "cpt_c": 5.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.2,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Good resistance to mild acids, alkalis, and moderate chlorine concentrations",
+      "scc_resistance": "Good (low carbon and 4% Ni provide high resistance to sulfide SCC in oilfield service)",
+      "sensitization_resistance": "High"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 550,
+      "intermittent_service_temp_c": 600,
+      "scaling_temperature_c": 600
+    },
+    "manufacturing_properties": {
+      "formability_score": 5.0,
+      "deep_drawability_ldr": 1.5,
+      "erichsen_cupping_mm": 7.5,
+      "weldability_score": 7.5,
+      "machinability_score": 6.5,
+      "recommended_welding": "Much better weldability than standard 410/420 due to low C (<0.05%). AWS ER410NiMo filler."
+    },
+    "commercial": {
+      "relative_cost_index": 6.2,
+      "cost_band": "Moderate-High (Ni-Mo alloyed)",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Hydroelectric turbine runners and Pelton wheels",
+      "Heavy engineering pump impellers and compressor valves",
+      "Offshore oil & gas choke valves and flowlines",
+      "High strength pressure piping under cavitation and erosion"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Requires post-weld tempering at ~600\u00b0C for optimal impact toughness"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S41500",
+      "EN 1.4313",
+      "NACE MR0175"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J415 Martensitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "UNS S41500 (CA6NM)",
+    "equivalent_bis": "05Cr13Ni4Mo (IS 6911)",
+    "equivalent_en": "EN 1.4313",
+    "equivalent_uns": "UNS S41500",
+    "equivalent_jis": "SUS 415"
+  },
+  {
+    "grade_name": "J-420J2",
+    "aliases": [
+      "JIS SUS 420J2",
+      "AISI 420",
+      "EN 1.4028",
+      "Hardenable Cutlery Stainless"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic (High Hardness)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 75.0,
+    "composition": {
+      "C_min": 0.26,
+      "C_max": 0.4,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 12.0,
+      "Cr_max": 14.0,
+      "Ni_max": 0.6,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "N_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 225,
+      "tensile_strength_min_mpa": 540,
+      "elongation_min_pct": 18,
+      "hardness_max": "99 HRB (Annealed) / 50-54 HRC (Hardened & Tempered)",
+      "hardness_hrb_val": 99,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 24.9,
+      "thermal_expansion_coeff_um_m_c": 11.0,
+      "electrical_resistivity_uohm_m": 0.55
+    },
+    "corrosion_properties": {
+      "pren": 13.0,
+      "cpt_c": -5.0,
+      "cct_c": -10.0,
+      "general_corrosion_score": 6.2,
+      "pitting_resistance_score": 5.2,
+      "chloride_suitability": "Moderate in atmosphere, fresh water, fruit juices (best in hardened and tempered state)",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "High hardness after quench and temper"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 500,
+      "intermittent_service_temp_c": 550,
+      "scaling_temperature_c": 550
+    },
+    "manufacturing_properties": {
+      "formability_score": 5.2,
+      "deep_drawability_ldr": 1.5,
+      "erichsen_cupping_mm": 7.8,
+      "weldability_score": 4.5,
+      "machinability_score": 8.5,
+      "recommended_welding": "Generally not recommended for welded structures. Preheat 250\u00b0C and immediate post-weld temper required."
+    },
+    "commercial": {
+      "relative_cost_index": 4.1,
+      "cost_band": "Economical / Budget",
+      "market_availability": "Universal"
+    },
+    "typical_applications": [
+      "Cutlery, chef knives, dive knives, and surgical scissors",
+      "Pump valves, bushings, and shafts",
+      "Screwdrivers, dental instruments, and hand tools",
+      "Brake discs for two-wheelers and industrial wear plates"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Poor weldability; susceptible to hydrogen-induced cold cracking if not carefully heat-treated",
+      "Low corrosion resistance in marine or hot chlorinated water"
+    ],
+    "standards": [
+      "JIS G4305",
+      "ASTM A240 equivalent",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J420J1/J420J2 Martensitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 420 (High C)",
+    "equivalent_bis": "30Cr13 (IS 6911)",
+    "equivalent_en": "EN 1.4028",
+    "equivalent_uns": "UNS S42000",
+    "equivalent_jis": "SUS 420J2"
+  },
+  {
+    "grade_name": "EN 1.4116",
+    "aliases": [
+      "X50CrMoV15",
+      "German Cutlery Steel",
+      "Professional Knife Stainless"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic (Mo-V alloyed)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 75.0,
+    "composition": {
+      "C_min": 0.45,
+      "C_max": 0.55,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.015,
+      "Si_max": 1.0,
+      "Cr_min": 14.0,
+      "Cr_max": 15.0,
+      "Mo_min": 0.5,
+      "Mo_max": 0.8,
+      "V_min": 0.1,
+      "V_max": 0.2,
+      "Ni_max": 0.0,
+      "Cu_max": 0.0,
+      "N_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 350,
+      "tensile_strength_min_mpa": 850,
+      "elongation_min_pct": 12,
+      "hardness_max": "100 HRB (Annealed) / 55-57 HRC (Hardened)",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.0,
+      "thermal_expansion_coeff_um_m_c": 10.5,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 16.5,
+      "cpt_c": 8.0,
+      "cct_c": -2.0,
+      "general_corrosion_score": 7.0,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Good corrosion resistance in food acids and domestic washing due to 14.5% Cr + Mo",
+      "scc_resistance": "Moderate (Hardened state)",
+      "sensitization_resistance": "High edge retention and wear resistance"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 450,
+      "intermittent_service_temp_c": 500,
+      "scaling_temperature_c": 500
+    },
+    "manufacturing_properties": {
+      "formability_score": 4.5,
+      "deep_drawability_ldr": 1.4,
+      "erichsen_cupping_mm": 6.5,
+      "weldability_score": 4.0,
+      "machinability_score": 8.0,
+      "recommended_welding": "Not recommended for welding. High carbon causes hard brittle martensitic HAZ."
+    },
+    "commercial": {
+      "relative_cost_index": 5.5,
+      "cost_band": "Moderate",
+      "market_availability": "Universal in Cutlery / Blade Sectors"
+    },
+    "typical_applications": [
+      "Professional kitchen knives, chef knives, and butcher cutlery",
+      "Surgical cutting instruments and scissors",
+      "Industrial food processing blades and slicers",
+      "High-wear valve components and pump impellers"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Poor weldability and low cold formability",
+      "Requires controlled vacuum/protective atmosphere heat treatment for hardness"
+    ],
+    "standards": [
+      "EN 10088-2",
+      "DIN 1.4116",
+      "ISO 7153-1"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: EN 1.4116 Martensitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 420MoV / X50CrMoV15",
+    "equivalent_bis": "50Cr15MoV (IS 6911)",
+    "equivalent_en": "EN 1.4116",
+    "equivalent_uns": "UNS S42000 equiv",
+    "equivalent_jis": "SUS 420J2 mod"
+  },
+  {
+    "grade_name": "J-410DB",
+    "aliases": [
+      "JSL 410DB",
+      "Disc Brake Martensitic Stainless Steel"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 75.0,
+    "composition": {
+      "C_max": 0.09,
+      "Mn_min": 1.0,
+      "Mn_max": 2.5,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 0.5,
+      "Cr_min": 10.0,
+      "Cr_max": 14.5,
+      "Ni_max": 0.6,
+      "N_max": 0.03,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 410,
+      "elongation_min_pct": 20,
+      "hardness_max": "75-88 HRB",
+      "hardness_hrb_val": 88,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 25.0,
+      "thermal_expansion_coeff_um_m_c": 11.0,
+      "electrical_resistivity_uohm_m": 0.58
+    },
+    "corrosion_properties": {
+      "pren": 11.5,
+      "cpt_c": -10.0,
+      "cct_c": -15.0,
+      "general_corrosion_score": 5.9,
+      "pitting_resistance_score": 4.9,
+      "chloride_suitability": "Moderate; optimized for brake rotor wet/dry road spray friction",
+      "scc_resistance": "Moderate to Good",
+      "sensitization_resistance": "High friction and abrasion resistance"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 600,
+      "intermittent_service_temp_c": 650,
+      "scaling_temperature_c": 650
+    },
+    "manufacturing_properties": {
+      "formability_score": 6.8,
+      "deep_drawability_ldr": 1.6,
+      "erichsen_cupping_mm": 8.8,
+      "weldability_score": 6.8,
+      "machinability_score": 8.0,
+      "recommended_welding": "Laser cut and machined into brake discs; moderate weldability."
+    },
+    "commercial": {
+      "relative_cost_index": 3.8,
+      "cost_band": "Economical / Budget",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Disc brake rotors for two-wheelers (motorcycles, scooters)",
+      "Disc brake rotors for four-wheelers and automotive vehicles",
+      "Heavy duty brake rotors and wear plates"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Formulated specifically for wear and brake rotor properties rather than extreme chemical corrosion"
+    ],
+    "standards": [
+      "JSL Customer Specs for Disc Brake Applications"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J410DB Martensitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 410 (Disc Brake Spec)",
+    "equivalent_bis": "10Cr13DB (IS 6911)",
+    "equivalent_en": "EN 1.4006 mod",
+    "equivalent_uns": "UNS S41000",
+    "equivalent_jis": "SUS 410"
+  },
+  {
+    "grade_name": "J-301",
+    "aliases": [
+      "AISI 301",
+      "UNS S30100",
+      "EN 1.4310",
+      "SUS 301"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic (High Work Hardening)",
+    "magnetic_behavior": "Non-magnetic in annealed state (moderately magnetic after cold work)",
+    "magnetic_permeability_relative": 1.05,
+    "composition": {
+      "C_max": 0.15,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.1,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 515,
+      "elongation_min_pct": 40,
+      "hardness_max": "95 HRB",
+      "hardness_hrb_val": 95,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 16.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 17.5,
+      "cpt_c": 0.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.3,
+      "pitting_resistance_score": 6.5,
+      "chloride_suitability": "Mild corrosion environment; almost equivalent to 304 in atmospheric exposure",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.8,
+      "deep_drawability_ldr": 1.95,
+      "erichsen_cupping_mm": 12.0,
+      "weldability_score": 8.8,
+      "machinability_score": 6.5,
+      "recommended_welding": "Weldable with ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 5.5,
+      "cost_band": "Cost-Effective",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Transportation cars, railway/metro coaches, subway cars",
+      "Trailer bodies and aircraft structural parts",
+      "Electrical equipment, endless conveyor belts",
+      "Architectural structural members"
+    ],
+    "limitations": [
+      "Rapid work hardening requires powerful press tools",
+      "Becomes magnetic when cold worked"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J301/J301L/J301LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 301",
+    "equivalent_bis": "07Cr17Ni7 (IS 6911)",
+    "equivalent_en": "EN 1.4310",
+    "equivalent_uns": "UNS S30100",
+    "equivalent_jis": "SUS 301"
+  },
+  {
+    "grade_name": "J-301L",
+    "aliases": [
+      "AISI 301L",
+      "UNS S30103",
+      "EN 1.4318 (low C)",
+      "SUS 301L"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic (Low Carbon)",
+    "magnetic_behavior": "Non-magnetic in annealed condition",
+    "magnetic_permeability_relative": 1.03,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "N_max": 0.2,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 220,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 45,
+      "hardness_max": "100 HRB (Annealed) / 690 MPa YS (1/2 Hard)",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 16.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 18.5,
+      "cpt_c": 5.0,
+      "cct_c": -3.0,
+      "general_corrosion_score": 7.6,
+      "pitting_resistance_score": 6.8,
+      "chloride_suitability": "Resists intergranular corrosion after welding",
+      "scc_resistance": "Moderate",
+      "sensitization_resistance": "Excellent (Low carbon prevents carbide precipitation during welding)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.0,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.5,
+      "weldability_score": 9.5,
+      "machinability_score": 6.5,
+      "recommended_welding": "Excellent weldability without need for post-weld annealing. Filler: ER308L."
+    },
+    "commercial": {
+      "relative_cost_index": 5.7,
+      "cost_band": "Cost-Effective",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Railway coaches and wagons",
+      "Fixtures for construction purposes",
+      "Springs, automotive gaskets, endless belts",
+      "High-strength structural members"
+    ],
+    "limitations": [
+      "Lower corrosion resistance than 316 in marine splash zones"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J301/J301L/J301LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 301L",
+    "equivalent_bis": "03Cr17Ni7 (IS 6911)",
+    "equivalent_en": "EN 1.4318",
+    "equivalent_uns": "UNS S30103",
+    "equivalent_jis": "SUS 301L"
+  },
+  {
+    "grade_name": "J-301LN",
+    "aliases": [
+      "AISI 301LN",
+      "UNS S30153",
+      "EN 1.4318"
+    ],
+    "family": "Austenitic Cr-Ni",
+    "microstructure": "Austenitic (Nitrogen-Strengthened)",
+    "magnetic_behavior": "Non-magnetic in annealed condition",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.03,
+      "Mn_max": 2.0,
+      "P_max": 0.045,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 16.0,
+      "Cr_max": 18.0,
+      "Ni_min": 6.0,
+      "Ni_max": 8.0,
+      "N_min": 0.07,
+      "N_max": 0.2,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 240,
+      "tensile_strength_min_mpa": 550,
+      "elongation_min_pct": 45,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 193
+    },
+    "physical_properties": {
+      "density_kg_m3": 7910,
+      "thermal_conductivity_w_mk": 16.3,
+      "thermal_expansion_coeff_um_m_c": 16.9,
+      "electrical_resistivity_uohm_m": 0.72
+    },
+    "corrosion_properties": {
+      "pren": 19.5,
+      "cpt_c": 8.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 7.8,
+      "pitting_resistance_score": 7.2,
+      "chloride_suitability": "Good in urban and mild industrial environments; high strength with nitrogen",
+      "scc_resistance": "Moderate to Good",
+      "sensitization_resistance": "Excellent"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -196,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.9,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.3,
+      "weldability_score": 9.4,
+      "machinability_score": 6.2,
+      "recommended_welding": "Weldable with ER308L filler."
+    },
+    "commercial": {
+      "relative_cost_index": 6.0,
+      "cost_band": "Moderate",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Train bodies, side frames, and roofs",
+      "Liquefied gas storage vessels",
+      "Chassis of railway rolling stock and heavy trailers",
+      "Coal handling and transport equipment"
+    ],
+    "limitations": [
+      "Requires higher forming energy than lower-strength 304"
+    ],
+    "standards": [
+      "ASTM A240",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J301/J301L/J301LN Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 301LN",
+    "equivalent_bis": "02Cr17Ni7N (IS 6911)",
+    "equivalent_en": "EN 1.4318",
+    "equivalent_uns": "UNS S30153",
+    "equivalent_jis": "SUS 301LN"
+  },
+  {
+    "grade_name": "J-430SM",
+    "aliases": [
+      "JSL 430SM",
+      "Indoor Appliance Ferritic 430"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.015,
+      "Mn_max": 0.5,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 13.0,
+      "Cr_max": 14.0,
+      "Ni_max": 0.75,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0,
+      "N_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 415,
+      "elongation_min_pct": 22,
+      "hardness_max": "89 HRB",
+      "hardness_hrb_val": 89,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.9,
+      "thermal_expansion_coeff_um_m_c": 10.3,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 13.5,
+      "cpt_c": 0.0,
+      "cct_c": -8.0,
+      "general_corrosion_score": 6.5,
+      "pitting_resistance_score": 5.5,
+      "chloride_suitability": "72 hrs cyclic salt spray test (8h wet / 16h dry) with no staining in 5% NaCl at 35\u00b0C",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "Moderate"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 650,
+      "intermittent_service_temp_c": 700,
+      "scaling_temperature_c": 700
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.0,
+      "deep_drawability_ldr": 1.85,
+      "erichsen_cupping_mm": 10.2,
+      "weldability_score": 7.5,
+      "machinability_score": 7.6,
+      "recommended_welding": "Weldable with ER308L or ER309L."
+    },
+    "commercial": {
+      "relative_cost_index": 4.0,
+      "cost_band": "Low Cost (Nickel-Free)",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Decorative panels and architectural trims",
+      "Home appliances: Dishwashers, washing machines, sinks, refrigerators",
+      "Automotive non-critical trims"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Not suitable for severe outdoor coastal environments"
+    ],
+    "standards": [
+      "JSL Customer Specifications"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J430SM Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 430SM (Low C)",
+    "equivalent_bis": "02Cr14 (IS 6911)",
+    "equivalent_en": "EN 1.4016 equiv",
+    "equivalent_uns": "UNS S43000 equiv",
+    "equivalent_jis": "SUS 430"
+  },
+  {
+    "grade_name": "J-432",
+    "aliases": [
+      "J436J1L",
+      "JIS SUS 436J1L",
+      "Moly-Niobium Stabilized Ferritic"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 60.0,
+    "composition": {
+      "C_max": 0.025,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 17.0,
+      "Cr_max": 20.0,
+      "Mo_min": 0.4,
+      "Mo_max": 0.8,
+      "Nb_min": 0.3,
+      "Nb_max": 0.8,
+      "N_max": 0.025,
+      "Ni_max": 0.5,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 245,
+      "tensile_strength_min_mpa": 410,
+      "elongation_min_pct": 20,
+      "hardness_max": "90 HRB",
+      "hardness_hrb_val": 90,
+      "modulus_of_elasticity_gpa": 205
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.2,
+      "thermal_expansion_coeff_um_m_c": 10.4,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 18.8,
+      "cpt_c": 18.0,
+      "cct_c": 0.0,
+      "general_corrosion_score": 8.0,
+      "pitting_resistance_score": 8.0,
+      "chloride_suitability": "Excellent pitting resistance in salt spray; superior to 430 in oxidizing media",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "Outstanding (Nb stabilization)"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -10,
+      "max_continuous_temp_c": 850,
+      "intermittent_service_temp_c": 900,
+      "scaling_temperature_c": 900
+    },
+    "manufacturing_properties": {
+      "formability_score": 8.2,
+      "deep_drawability_ldr": 1.9,
+      "erichsen_cupping_mm": 10.8,
+      "weldability_score": 8.8,
+      "machinability_score": 7.2,
+      "recommended_welding": "High drawability in weld zone due to fine equiaxed grain structure."
+    },
+    "commercial": {
+      "relative_cost_index": 5.4,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Visible automotive exhaust: Central & rear mufflers, exhaust pipes",
+      "Automotive trims and outdoor panels",
+      "Kitchen furnishing and commercial appliances"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Lower impact toughness below 0\u00b0C"
+    ],
+    "standards": [
+      "JIS G4305 SUS 436J1L",
+      "JSL Proprietary Grade"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J432/436J1L Stabilized Ferritic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI / SUS 436J1L",
+    "equivalent_bis": "02Cr18Mo0.5Nb (IS 6911)",
+    "equivalent_en": "EN 1.4526 equiv",
+    "equivalent_uns": "UNS S43600 equiv",
+    "equivalent_jis": "SUS 436J1L"
+  },
+  {
+    "grade_name": "J-431",
+    "aliases": [
+      "AISI 431",
+      "UNS S43100",
+      "EN 1.4057",
+      "High-Toughness Martensitic"
+    ],
+    "family": "Martensitic Stainless Steel",
+    "microstructure": "Martensitic (Ni-alloyed)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 70.0,
+    "composition": {
+      "C_max": 0.2,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 15.0,
+      "Cr_max": 17.0,
+      "Ni_min": 1.25,
+      "Ni_max": 2.5,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0,
+      "N_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 600,
+      "tensile_strength_min_mpa": 850,
+      "elongation_min_pct": 16,
+      "hardness_max": "285 BHN / 30 HRC",
+      "hardness_hrb_val": 103,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7750,
+      "thermal_conductivity_w_mk": 20.2,
+      "thermal_expansion_coeff_um_m_c": 10.8,
+      "electrical_resistivity_uohm_m": 0.7
+    },
+    "corrosion_properties": {
+      "pren": 16.0,
+      "cpt_c": 5.0,
+      "cct_c": -5.0,
+      "general_corrosion_score": 7.2,
+      "pitting_resistance_score": 6.5,
+      "chloride_suitability": "Highest corrosion resistance among conventional hardenable martensitic stainless steels",
+      "scc_resistance": "Good (tempered condition)",
+      "sensitization_resistance": "High strength and toughness"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -20,
+      "max_continuous_temp_c": 550,
+      "intermittent_service_temp_c": 600,
+      "scaling_temperature_c": 600
+    },
+    "manufacturing_properties": {
+      "formability_score": 5.0,
+      "deep_drawability_ldr": 1.5,
+      "erichsen_cupping_mm": 7.5,
+      "weldability_score": 5.5,
+      "machinability_score": 7.0,
+      "recommended_welding": "Requires preheating to 200-300\u00b0C and immediate post-weld annealing."
+    },
+    "commercial": {
+      "relative_cost_index": 6.0,
+      "cost_band": "Moderate",
+      "market_availability": "Moderate"
+    },
+    "typical_applications": [
+      "Heavy machinery structural components",
+      "Aircraft structural fittings and fasteners",
+      "Marine propeller shafts and pump rods",
+      "Valves, bolts, and industrial pins"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Poor cold formability; requires warm forming or machining",
+      "Welding requires strict preheat/post-weld heat treatment"
+    ],
+    "standards": [
+      "ASTM A240",
+      "ASTM A176",
+      "UNS S43100",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J431 Martensitic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 431",
+    "equivalent_bis": "15Cr16Ni2 (IS 6911)",
+    "equivalent_en": "EN 1.4057",
+    "equivalent_uns": "UNS S43100",
+    "equivalent_jis": "SUS 431"
+  },
+  {
+    "grade_name": "J-410S",
+    "aliases": [
+      "AISI 410S",
+      "UNS S41008",
+      "EN 1.4000",
+      "Low Carbon 410 Ferritic"
+    ],
+    "family": "Ferritic Stainless Steel",
+    "microstructure": "Ferritic (Non-Hardenable)",
+    "magnetic_behavior": "Ferromagnetic",
+    "magnetic_permeability_relative": 65.0,
+    "composition": {
+      "C_max": 0.08,
+      "Mn_max": 1.0,
+      "P_max": 0.04,
+      "S_max": 0.03,
+      "Si_max": 1.0,
+      "Cr_min": 11.5,
+      "Cr_max": 13.5,
+      "Ni_max": 0.6,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Cu_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0,
+      "N_max": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 205,
+      "tensile_strength_min_mpa": 415,
+      "elongation_min_pct": 22,
+      "hardness_max": "89 HRB",
+      "hardness_hrb_val": 89,
+      "modulus_of_elasticity_gpa": 200
+    },
+    "physical_properties": {
+      "density_kg_m3": 7700,
+      "thermal_conductivity_w_mk": 25.9,
+      "thermal_expansion_coeff_um_m_c": 10.3,
+      "electrical_resistivity_uohm_m": 0.6
+    },
+    "corrosion_properties": {
+      "pren": 12.5,
+      "cpt_c": -8.0,
+      "cct_c": -12.0,
+      "general_corrosion_score": 6.2,
+      "pitting_resistance_score": 5.0,
+      "chloride_suitability": "Better than 409M ferritic stainless due to higher chromium content and controlled carbon",
+      "scc_resistance": "Immune to chloride SCC",
+      "sensitization_resistance": "Low-carbon prevents extensive hardening on cooling"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": 0,
+      "max_continuous_temp_c": 650,
+      "intermittent_service_temp_c": 700,
+      "scaling_temperature_c": 700
+    },
+    "manufacturing_properties": {
+      "formability_score": 7.6,
+      "deep_drawability_ldr": 1.8,
+      "erichsen_cupping_mm": 9.8,
+      "weldability_score": 8.0,
+      "machinability_score": 7.5,
+      "recommended_welding": "Does not harden significantly upon welding. AWS ER410S or ER309 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 4.0,
+      "cost_band": "Low Cost",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Furnace parts and burners operating at lower temperatures",
+      "Petroleum fractionating tower internals, tray supports, and bubble caps",
+      "Mining equipment and structural frames"
+    ],
+    "limitations": [
+      "Magnetic",
+      "Moderate corrosion resistance only (not for coastal/chemical acid immersion)"
+    ],
+    "standards": [
+      "ASTM A240",
+      "UNS S41008",
+      "EN 10088-2"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J410S Ferritic Stainless Steel, p. 1",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 410S",
+    "equivalent_bis": "04Cr13 (IS 6911)",
+    "equivalent_en": "EN 1.4000",
+    "equivalent_uns": "UNS S41008",
+    "equivalent_jis": "SUS 410S"
+  },
+  {
+    "grade_name": "J-204",
+    "aliases": [
+      "DIN 1.4376",
+      "Austenitic Cr-Mn J204"
+    ],
+    "family": "Austenitic Cr-Mn",
+    "microstructure": "Austenitic",
+    "magnetic_behavior": "Non-magnetic in annealed condition",
+    "magnetic_permeability_relative": 1.02,
+    "composition": {
+      "C_max": 0.1,
+      "Mn_min": 5.0,
+      "Mn_max": 8.0,
+      "P_max": 0.045,
+      "S_max": 0.015,
+      "Si_max": 1.0,
+      "Cr_min": 17.0,
+      "Cr_max": 20.5,
+      "Ni_min": 2.0,
+      "Ni_max": 4.5,
+      "Cu_max": 0.25,
+      "N_max": 0.3,
+      "Mo_min": 0.0,
+      "Mo_max": 0.0,
+      "Ti_min": 0.0,
+      "Nb_min": 0.0
+    },
+    "mechanical_properties": {
+      "yield_strength_min_mpa": 350,
+      "tensile_strength_min_mpa": 700,
+      "elongation_min_pct": 40,
+      "hardness_max": "100 HRB",
+      "hardness_hrb_val": 100,
+      "modulus_of_elasticity_gpa": 195
+    },
+    "physical_properties": {
+      "density_kg_m3": 7850,
+      "thermal_conductivity_w_mk": 16.0,
+      "thermal_expansion_coeff_um_m_c": 16.8,
+      "electrical_resistivity_uohm_m": 0.74
+    },
+    "corrosion_properties": {
+      "pren": 19.0,
+      "cpt_c": 2.0,
+      "cct_c": -4.0,
+      "general_corrosion_score": 7.6,
+      "pitting_resistance_score": 7.0,
+      "chloride_suitability": "Corrosion rate A (<0.02 mmpy) in boiling 3% NaCl, organic acids, and fruit acids (at par with 304)",
+      "scc_resistance": "Good",
+      "sensitization_resistance": "Good"
+    },
+    "temperature_capability": {
+      "min_service_temp_c": -40,
+      "max_continuous_temp_c": 750,
+      "intermittent_service_temp_c": 800,
+      "scaling_temperature_c": 800
+    },
+    "manufacturing_properties": {
+      "formability_score": 9.2,
+      "deep_drawability_ldr": 2.0,
+      "erichsen_cupping_mm": 12.8,
+      "weldability_score": 9.0,
+      "machinability_score": 6.5,
+      "recommended_welding": "Manganese improves weldability. AWS ER308 filler."
+    },
+    "commercial": {
+      "relative_cost_index": 4.7,
+      "cost_band": "Cost-Effective",
+      "market_availability": "High"
+    },
+    "typical_applications": [
+      "Cookware and kitchen sinks",
+      "Hose clamps, automotive trailer frames, industrial strapping",
+      "Railway rolling stock and structural pressings",
+      "Storage vessels for mild chemical media"
+    ],
+    "limitations": [
+      "Requires higher forming tonnage than 304 due to 350 MPa yield strength"
+    ],
+    "standards": [
+      "DIN 1.4376",
+      "JSL Product Specification"
+    ],
+    "source_reference": "Jindal Stainless Datasheet: J204 DIN 1.4376 Austenitic Stainless Steel, pp. 1-2",
+    "confidence": "Verified (JSL Technical Datasheet)",
+    "equivalent_aisi": "AISI 204",
+    "equivalent_bis": "08Cr18Mn6Ni3N (IS 6911)",
+    "equivalent_en": "DIN 1.4376",
+    "equivalent_uns": "UNS S20400",
+    "equivalent_jis": "N/A"
+  }
+]
