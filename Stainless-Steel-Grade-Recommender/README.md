@@ -18,14 +18,14 @@ The system is designed as an **engineering decision-support tool**, not an opaqu
 
 ## 🏛️ Architectural Adaptation from `Know_Your_Laws`
 
-| Architectural Layer | Know Your Laws Reference | Stainless Steel Grade Recommender |
+| Architectural Layer | | Stainless Steel Grade Recommender |
 | :--- | :--- | :--- |
-| **Domain Corpus** | Legal statutes (BNSS, IT Act, CP Act) | Jindal Stainless Limited (JSL) Technical Datasheets, ASTM A240, EN 10088, JIS G4305 |
-| **Knowledge Representation** | Unstructured PDF pages & FAISS chunks | Structured Grade Database (56 verified grades) + Multi-document Markdown Knowledge Base |
-| **Agentic Workflow** | Query Rewriter ➔ Retriever ➔ Evaluator ➔ Corrective Web Search | UI Agent ➔ Interpretation Layer ➔ Constraint Agent ➔ Scoring Engine ➔ Trade-off Agent ➔ Explanation Agent |
-| **Decision Logic** | LLM text synthesis | **Deterministic multi-attribute mathematical model** (no hallucinated scores) + LLM RAG explanation |
-| **Explainability** | Legal citations (`[BNSS 2023, p. 4]`) | Metallurgical citations (`[JSL Datasheet: J2205 UNS S32205, ASTM G150, PREN 35]`) |
-| **User Modes** | Professional vs. Normal | **Mode 1: Fabricator/Basic** vs. **Mode 2: Metallurgist/Scientist** |
+| **Domain Corpus** | | Jindal Stainless Limited (JSL) Technical Datasheets, ASTM A240, EN 10088, JIS G4305 |
+| **Knowledge Representation** | | Structured Grade Database (56 verified grades) + Multi-document Markdown Knowledge Base |
+| **Agentic Workflow** | | UI Agent ➔ Interpretation Layer ➔ Constraint Agent ➔ Scoring Engine ➔ Trade-off Agent ➔ Explanation Agent |
+| **Decision Logic** | | **Deterministic multi-attribute mathematical model** (no hallucinated scores) + LLM RAG explanation |
+| **Explainability** | | Metallurgical citations (`[JSL Datasheet: J2205 UNS S32205, ASTM G150, PREN 35]`) |
+| **User Modes** | | **Mode 1: Fabricator/Basic** vs. **Mode 2: Metallurgist/Scientist** |
 
 ---
 
@@ -125,7 +125,7 @@ The database includes **56 verified stainless steel grades** sourced directly fr
 ## 🛠️ Project Structure
 
 ```text
-Know_Your_Laws-Agentic-AI--main/
+Stainless-Steel-Grade-Recommender/
 ├── data/
 │   ├── grades_database.json          # 56 structured JSL grades with full metallurgy metrics
 │   └── knowledge_base/               # Technical datasheets, ASTM/EN standards, corrosion data
@@ -154,26 +154,3 @@ Know_Your_Laws-Agentic-AI--main/
 ├── streamlit_app.py                  # Full-stack interactive Streamlit web application
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # Complete documentation
-```
-
----
-
-## 💻 Running Locally
-
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Configure Environment Variables (Optional)
-If you wish to use an external LLM (Groq) for generative explanations, create a `.env` file:
-```env
-GROQ_API_KEY="your_groq_api_key_here"
-```
-*(Note: If no API key is provided, the system seamlessly runs its built-in deterministic metallurgical reasoning engine offline with 100% functionality).*
-
-### 3. Launch the Application
-```bash
-python -m streamlit run streamlit_app.py
-```
-Open your browser at `http://localhost:8501`.
