@@ -2,7 +2,7 @@
 
 An explainable, metallurgical decision-support system that recommends the optimal stainless steel grade based on engineering requirements, environmental constraints, and user-defined priority weights.
 
-Adapted from the **Know_Your_Laws-Agentic-AI** architectural reference, this application transforms an Agentic Retrieval-Augmented Generation (RAG) framework into a deterministic, auditable engineering advisor for material selection.
+This application transforms an Agentic Retrieval-Augmented Generation (RAG) framework into a deterministic, auditable engineering advisor for material selection.
 
 ---
 
