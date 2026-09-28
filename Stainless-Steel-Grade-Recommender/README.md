@@ -16,7 +16,7 @@ The system is designed as an **engineering decision-support tool**, not an opaqu
 
 ---
 
-## 🏛️ Architectural Adaptation from `Know_Your_Laws`
+## 🏛️ Architecture
 
 | Architectural Layer | | Stainless Steel Grade Recommender |
 | :--- | :--- | :--- |
